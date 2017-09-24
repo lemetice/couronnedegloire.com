@@ -6,7 +6,7 @@
 <!-- Basic Page Needs
   ================================================== -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Native Church</title>
+<title>Couronne De Gloire</title>
 <meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="author" content="">
@@ -39,13 +39,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-6 col-xs-8">
-            <h1 class="logo"> <a href="index.html"><img src="images/logo.png" alt="Logo"></a> </h1>
+            <h1 class="logo"> <a href="/"><img src="images/logo.png" alt="Logo"></a> </h1>
           </div>
           <div class="col-md-8 col-sm-6 col-xs-4">
-            <ul class="top-navigation hidden-sm hidden-xs">
-              <li><a href="plan-visit.html">Plan your visit</a></li>
-              <li><a href="events-calendar.html">Calendar</a></li>
-              <li><a href="donate.html">Donate Now</a></li>
+            <ul class="top-navigation hidden-sm hidden-xs"><!--
+              <li><a href="plan-visit.html">Plan your visit</a></li>-->
+              <li><a href="events-calendar.html">calendrier</a></li>
+              <li><a href="donate.html">Faire un don</a></li>
             </ul>
             <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a> </div>
         </div>
@@ -57,7 +57,8 @@
           <div class="col-md-12">
             <nav class="navigation">
               <ul class="sf-menu">
-                <li><a href="index.html">Home</a>
+                <li><a href="#">Accueil</a>
+                  <!--
                   <ul class="dropdown">
                     <li><a href="index.html">Sliders</a>
                     		<ul class="dropdown">
@@ -81,13 +82,14 @@
                     <li><a href="index4.html">Home version 5</a></li>
                     <li><a href="index5.html">Home version 6 <span class="label label-danger">New</span></a></li>
                   </ul>
+                  -->
                 </li>
-                <li><a href="about.html">About Us</a>
+                <li><a href="about">A propos</a>
                   <ul class="dropdown">
-                    <li><a href="about.html">Overview</a></li>
-                    <li><a href="contact.html">Where we meet</a></li>
-                    <li><a href="our-staff.html">Our Staff</a></li>
-                	<li><a href="contact.html">Contact</a></li>
+                    <li><a href="about">Vue d'ensemble</a></li>
+                    <li><a href="auth/login">Membre</a></li>
+                    <li><a href="our-staff">Notre Staff</a></li>
+                	<li><a href="contact">Contact</a></li>
                   </ul>
                 </li>
                 <li class="megamenu"><a href="shortcodes.html">Mega Menu</a>
@@ -98,29 +100,29 @@
                           <div class="col-md-3 hidden-sm hidden-xs"> <span class="megamenu-sub-title"><i class="fa fa-bell"></i> Today's Prayer</span>
                             <iframe width="200" height="150" src="https://player.vimeo.com/video/19564018?title=0&amp;byline=0&amp;color=007F7B"></iframe>
                           </div>
-                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-pagelines"></i> Our Ministries</span>
-                            <ul class="sub-menu">
-                              <li><a href="ministry.html">Women's Ministry</a></li>
-                              <li><a href="ministry.html">Men's Ministry</a></li>
-                              <li><a href="ministry.html">Children's Ministry</a></li>
-                              <li><a href="ministry.html">Youth Ministry</a></li>
-                              <li><a href="ministry.html">Prayer Requests</a></li>
+                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-pagelines"></i>La prophétesse</span>
+                            <ul class="sub-menu"> 
+                              <li><a href="ministry.html">Evangelisation</a></li>
+                              <li><a href="ministry.html">Livres</a></li>
+                              <li><a href="ministry.html">Guerrisons et délivrances</a></li>
+                              <li><a href="contact.html">Requête de prière</a></li>
+                              <li><a href="contact.html">Intercéssion</a></li>
                             </ul>
                           </div>
-                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-clock-o"></i> Upcoming Events</span>
+                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-clock-o"></i>Événements à venir</span>
                             <ul class="sub-menu">
                               <li><a href="single-event.html">Monday Prayer</a> <span class="meta-data">Monday | 06:00 PM</span> </li>
                               <li><a href="single-event.html">Staff members meet</a> <span class="meta-data">Tuesday | 08:00 AM</span> </li>
                               <li><a href="single-event.html">Evening Prayer</a> <span class="meta-data">Friday | 07:00 PM</span> </li>
                             </ul>
                           </div>
-                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Features</span>
+                          <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Autres</span>
                             <ul class="sub-menu">
-                              <li><a href="shortcodes.html">Shortcodes</a></li>
-                              <li><a href="typography.html">Typography</a></li>
-                    			<li><a href="shop.html">Shop <span class="label label-danger">New</span></a></li>
-                    			<li><a href="shop-sidebar.html">Shop Sidebar <span class="label label-danger">New</span></a></li>
-                    			<li><a href="shop-product.html">Single Product <span class="label label-danger">New</span></a></li>
+                              <li><a href="shortcodes.html">Bilan de notre défi</a></li>
+                              <li><a href="typography.html">Chartre de la MEICG</a></li>
+                    			<li><a href="shop.html">Les chrétiens persécutés<span class="label label-info">!</span></a></li>
+                    			<li><a href="shop-sidebar.html">Réponse à nos prières<span class="label label-danger">New</span></a></li>
+                    			<li><a href="shop-product.html">Soyons Unis <span class="label label-danger">New</span></a></li>
                             </ul>
                           </div>
                         </div>
@@ -128,21 +130,22 @@
                     </li>
                   </ul>
                 </li>
-                <li><a href="events.html">Events</a>
+                <li><a href="events.html">Aléa</a>
                   <ul class="dropdown">
-                    <li><a href="events.html">Events Listing</a></li>
-                    <li><a href="events-timeline.html">Events Timeline</a></li>
-                    <li><a href="google-calendar.html">Google Calender</a></li>
-                    <li><a href="events-calendar.html">Events Calender</a></li>
-                    <li><a href="events-grid.html">Events Masonry Grid</a></li>
-                    <li><a href="single-event.html">Single Event</a></li>
+                    <li><a href="events-timeline.html">Conférence</a></li>
+                    <li><a href="google-calendar.html">Prière de délivrance</a></li>
+                    <li><a href="events-calendar.html">Consécration</a></li>
+                    <li><a href="events-grid.html">Live sur Facebook</a></li>
+                    <li><a href="single-event.html">Retrait spirituelle</a></li>
+                    <li><a href="events.html">Tous</a></li>
                   </ul>
                 </li>
                 <li><a href="sermons.html">Sermons</a>
                   <ul class="dropdown">
-                    <li><a href="sermon-albums.html">Sermon Albums</a></li>
-                    <li><a href="sermons.html">Sermons Archive</a></li>
-                    <li><a href="single-sermon.html">Single Sermon</a></li>
+                    <li><a href="sermon-albums.html">Cultes</a></li>
+                    <li><a href="sermons.html">Baptême</a></li>
+                    <li><a href="single-sermon.html">Mariage</a></li>
+                    <li><a href="single-sermon.html">Archive</a></li>
                   </ul>
                 </li>
                 <li><a href="gallery-2cols-pagination.html">Gallery</a>
@@ -166,18 +169,19 @@
                 </li>
                 <li><a href="blog-masonry.html">Blog</a>
                   <ul class="dropdown">
-                    <li><a href="blog-masonry.html">Masonry Blog</a></li>
-                    <li><a href="blog-full-width.html">Full Width Blog</a></li>
-                    <li><a href="blog-timeline.html">Timeline Blog</a></li>
+                    <li><a href="blog-masonry.html">Voyages</a></li>
+                    <li><a href="blog-full-width.html">Sorties</a></li>
+                    <li><a href="#">Cuisine</a></li><!--
                     <li><a href="blog-medium-thumbnails.html">Medium Thumbnails</a></li>
-                    <li><a href="blog-post.html">Single Blog Post</a></li>
+                    <li><a href="blog-post.html">Single Blog Post</a></li>-->
                   </ul>
                 </li>
-                <li><a href="causes.html">Causes</a>
+                <li><a href="causes.html">Pain du ciel</a>
                   <ul class="dropdown">
-                    <li><a href="causes.html">Causes List</a></li>
-                    <li><a href="causes-grid.html">Causes Grid</a></li>
-                    <li><a href="single-cause.html">Single Cause</a></li>
+                    <li><a href="causes.html">Pain du jour</a></li>
+                    <li><a href="causes-grid.html">Pepites du jour</a></li>
+                    <li><a href="single-cause.html">repas des lundis</a></li>
+                    <li><a href="single-cause.html">radio</a></li>
                   </ul>
               	</li>
               </ul>
@@ -200,11 +204,11 @@
   <div class="notice-bar">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-title"> <span class="notice-bar-title-icon hidden-xs"><i class="fa fa-calendar fa-3x"></i></span> <span class="title-note">Next</span> <strong>Upcoming Event</strong> </div>
+        <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-title"> <span class="notice-bar-title-icon hidden-xs"><i class="fa fa-calendar fa-3x"></i></span> <span class="title-note">Next</span> <strong>Événements</strong> </div>
         <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-event-title">
-          <h5><a href="single-event.html">Sountheast Asia Meet</a></h5>
-          <span class="meta-data">13th July, 2016</span> </div>
-        <div id="counter" class="col-md-4 col-sm-6 col-xs-12 counter" data-date="July 13, 2018">
+          <h5><a href="single-event.html">Cameroon Meet</a></h5>
+          <span class="meta-data">20th October, 2017</span> </div>
+        <div id="counter" class="col-md-4 col-sm-6 col-xs-12 counter" data-date="October 20, 2017">
           <div class="timer-col"> <span id="days"></span> <span class="timer-type">days</span> </div>
           <div class="timer-col"> <span id="hours"></span> <span class="timer-type">hrs</span> </div>
           <div class="timer-col"> <span id="minutes"></span> <span class="timer-type">mins</span> </div>
@@ -404,7 +408,7 @@
 <script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
 <script src="style-switcher/js/jquery_cookie.js"></script> 
 <script src="style-switcher/js/script.js"></script> 
-<!-- Style Switcher Start -->
+<!-- Style Switcher Start 
 <div class="styleswitcher visible-lg visible-md">
   <div class="arrow-box"><a class="switch-button"><span class="fa fa-cogs fa-lg"></span></a> </div>
   <h4>Color Skins</h4>
@@ -452,7 +456,8 @@
     <li><img alt="" src="style-switcher/backgrounds/images/img4-thumb.jpg" data-nr="3" width="20" height="20"></li>
     <li><img alt="" src="style-switcher/backgrounds/images/img5-thumb.jpg" data-nr="4" width="20" height="20"></li>
   </ul>
-  <small>*only for boxed layout</small> </div>
+  <small>*only for boxed layout</small> 
+</div>-->
 </body>
 
 <!-- Mirrored from html.imithemes.com/nativechurch/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Sep 2017 00:06:25 GMT -->

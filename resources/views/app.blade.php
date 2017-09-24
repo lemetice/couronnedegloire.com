@@ -1,62 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel</title>
-
-	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
-
-	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
-
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+	<!-- Basic Page Needs
+	  ================================================== -->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Couronne De Gloire</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<!-- Mobile Specific Metas
+	  ================================================== -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<!-- CSS
+	  ================================================== -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="plugins/mediaelement/mediaelementplayer.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen" /><![endif]-->
+	<!-- Color Style -->
+	<link class="alt" href="colors/color1.css" rel="stylesheet" type="text/css">
+	<link href="style-switcher/css/style-switcher.css" rel="stylesheet" type="text/css">
+	<!-- SCRIPTS
+	  ================================================== -->
+	<script src="js/modernizr.js"></script><!-- Modernizr -->
 </head>
 <body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
-			</div>
+<!--[if lt IE 7]>
+	<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+<![endif]-->
+<div class="body"> 
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Home</a></li>
-				</ul>
-
-				<ul class="nav navbar-nav navbar-right">
-					@if (Auth::guest())
-						<li><a href="{{ url('/auth/login') }}">Login</a></li>
-						<li><a href="{{ url('/auth/register') }}">Register</a></li>
-					@else
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="{{ url('/auth/logout') }}">Logout</a></li>
-							</ul>
-						</li>
-					@endif
-				</ul>
-			</div>
-		</div>
-	</nav>
+	@include('includes.header')
 
 	@yield('content')
 
-	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
+	@include('includes.footer')
+</div>
+   
+  <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
+</div>
+<script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call --> 
+<script src="plugins/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin --> 
+<script src="js/helper-plugins.js"></script> <!-- Plugins --> 
+<script src="js/bootstrap.js"></script> <!-- UI --> 
+<script src="js/waypoints.js"></script> <!-- Waypoints --> 
+<script src="plugins/mediaelement/mediaelement-and-player.min.js"></script> <!-- MediaElements --> 
+<script src="js/init.js"></script> <!-- All Scripts --> 
+<script src="plugins/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider --> 
+<script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
+<script src="style-switcher/js/jquery_cookie.js"></script> 
+<script src="style-switcher/js/script.js"></script> 
+<!-- Style Switcher Start -->
 </body>
 </html>
