@@ -118,8 +118,8 @@
                           </div>
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Autres</span>
                             <ul class="sub-menu">
-                              <li><a href="shortcodes.html">Bilan de notre défi</a></li>
-                              <li><a href="typography.html">Chartre de la MEICG</a></li>
+                              <li><a href="bilan">Bilan de notre défi</a></li>
+                              <li><a href="chartre">Chartre de la MEICG</a></li>
                     			<li><a href="shop.html">Les chrétiens persécutés<span class="label label-info">!</span></a></li>
                     			<li><a href="shop-sidebar.html">Réponse à nos prières<span class="label label-danger">New</span></a></li>
                     			<li><a href="shop-product.html">Soyons Unis <span class="label label-danger">New</span></a></li>

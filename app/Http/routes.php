@@ -25,6 +25,21 @@ Route::get('about', function()
     return view('about');
 });
 
+Route::get('livre', function()
+{
+    return view('livre');
+});
+
+Route::get('bilan', function()
+{
+    return view('bilan');
+});
+
+Route::get('chartre', function()
+{
+    return view('chartre');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

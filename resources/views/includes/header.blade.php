@@ -11,7 +11,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-6 col-xs-8">
-            <h1 class="logo"> <a href="/"><img src="images/logo.png" alt="Logo"></a> </h1>
+            <h1 class="logo"> <a href="{{ url('/') }}"><img src="images/logo.png" alt="Logo"></a> </h1>
           </div>
           <div class="col-md-8 col-sm-6 col-xs-4">
             <ul class="top-navigation hidden-sm hidden-xs"><!--
@@ -29,7 +29,7 @@
           <div class="col-md-12">
             <nav class="navigation">
               <ul class="sf-menu">
-                <li><a href="#">Accueil</a>
+                <li><a href="{{ url('/') }}">Accueil</a>
                   <!--
                   <ul class="dropdown">
                     <li><a href="index.html">Sliders</a>
@@ -75,7 +75,7 @@
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-pagelines"></i>La prophétesse</span>
                             <ul class="sub-menu"> 
                               <li><a href="ministry.html">Evangelisation</a></li>
-                              <li><a href="ministry.html">Livres</a></li>
+                              <li><a href="livre">Livres</a></li>
                               <li><a href="ministry.html">Guerrisons et délivrances</a></li>
                               <li><a href="contact.html">Requête de prière</a></li>
                               <li><a href="contact.html">Intercéssion</a></li>

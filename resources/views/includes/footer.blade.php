@@ -11,10 +11,10 @@
       <div class="row"> 
         <!-- Start Footer Widgets -->
         <div class="col-md-4 col-sm-4 widget footer-widget">
-          <h4 class="footer-widget-title">About our Church</h4>
+          <h4 class="footer-widget-title">MEICG</h4>
           <img src="images/logo.png" alt="Logo">
           <div class="spacer-20"></div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis consectetur adipiscing elit. Nulla convallis egestas rhoncus</p>
+          <p>Mission Evangelique la Couronne de Gloire</p>
         </div>
         <div class="col-md-4 col-sm-4 widget footer-widget">
           <h4 class="footer-widget-title">Blogroll</h4>

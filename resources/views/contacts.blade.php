@@ -6,7 +6,7 @@
 		  <div class="row">
 		    <div class="col-md-12">
 		      <ol class="breadcrumb">
-		        <li><a href="index.html">Accueil</a></li>
+		        <li><a href="{{ url('/') }}">Accueil</a></li>
 		        <li class="active">Contact</li>
 		      </ol>
 		    </div>
@@ -37,7 +37,7 @@
 	        </header>
 	        <div class="post-content">
 	          <div id="gmap">
-	            <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=40.717989,-74.002705&amp;spn=0.043846,0.077162&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	            <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=48.801407, 2.130122&amp;spn=0.043846,0.077162&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 	          </div>
 	          <div class="row">
 	            <form method="post" id="contactform" name="contactform" class="contact-form" action="http://html.imithemes.com/nativechurch/mail/contact.php">
@@ -73,9 +73,17 @@
 	        <!-- Recent Posts Widget -->
 	        <div class="widget-recent-posts widget">
 	          <div class="sidebar-widget-title">
-	            <h3>Recent Posts</h3>
+	            <h3>Adresse</h3>
 	          </div>
-	          <ul>
+	          	<span>
+		          	<strong>10 Rue Charles Gounod 78000 Versailles</strong> <br>
+					<strong>E-mail</strong> <br> lacouronnedegloire@gmail.com <br>
+					adra.france78@gmail.com<br> 
+					<a href="http://www.secoursetsolidarité.com">www.secoursetsolidarité.com</a><br>
+					<strong>Tél</b> </strong> (+31) 06.81.78.34.31 <br>
+				</span>
+			<!--	
+	        <ul>
 	            <li class="clearfix"> <a href="#" class="media-box post-image"> <img src="images/blog-image3.jpg" alt="" class="img-thumbnail"> </a>
 	              <div class="widget-blog-content"><a href="#">Voluptatum deleniti atque corrupti voluptatum deleniti atque corrupti</a> <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span> </div>
 	            </li>
@@ -85,7 +93,7 @@
 	            <li class="clearfix"> <a href="#" class="media-box post-image"> <img src="images/blog-image2.jpg" alt="" class="img-thumbnail"> </a>
 	              <div class="widget-blog-content"><a href="#">Voluptatum deleniti atque corrupti voluptatum deleniti atque corrupti</a> <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span> </div>
 	            </li>
-	          </ul>
+	        </ul> -->
 	        </div>
 	      </div>
 	    </div>
