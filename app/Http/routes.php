@@ -45,6 +45,11 @@ Route::get('les-chretiens-persecutes', function()
     return view('chretiens_persecutes');
 });
 
+Route::get('soyons-unis', function()
+{
+    return view('soyons-unis');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
