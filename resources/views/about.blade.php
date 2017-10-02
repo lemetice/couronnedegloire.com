@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-12">
           <ol class="breadcrumb">
-            <li><a href="{{ url('/') }}">Home</a></li>
+            <li><a href="{{ url('/') }}">Accueil</a></li>
             <li class="active">Apropos de nous</li>
           </ol>
         </div>

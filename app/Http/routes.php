@@ -40,6 +40,11 @@ Route::get('chartre', function()
     return view('chartre');
 });
 
+Route::get('les-chretiens-persecutes', function()
+{
+    return view('chretiens_persecutes');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

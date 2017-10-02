@@ -74,11 +74,11 @@
                           </div>
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-pagelines"></i>La prophétesse</span>
                             <ul class="sub-menu"> 
-                              <li><a href="ministry.html">Evangelisation</a></li>
+                              <li><a href="evangelisation">Evangelisation</a></li>
                               <li><a href="livre">Livres</a></li>
-                              <li><a href="ministry.html">Guerrisons et délivrances</a></li>
-                              <li><a href="contact.html">Requête de prière</a></li>
-                              <li><a href="contact.html">Intercéssion</a></li>
+                              <li><a href="guerrisons-et-délivrances">Guerrisons et délivrances</a></li>
+                              <li><a href="requête-de-prière">Requête de prière</a></li>
+                              <li><a href="intercéssion">Intercéssion</a></li>
                             </ul>
                           </div>
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-clock-o"></i>Événements à venir</span>
@@ -90,11 +90,11 @@
                           </div>
                           <div class="col-md-3"> <span class="megamenu-sub-title"><i class="fa fa-cog"></i> Autres</span>
                             <ul class="sub-menu">
-                              <li><a href="shortcodes.html">Bilan de notre défi</a></li>
-                              <li><a href="typography.html">Chartre de la MEICG</a></li>
-                    			<li><a href="shop.html">Les chrétiens persécutés<span class="label label-info">!</span></a></li>
-                    			<li><a href="shop-sidebar.html">Réponse à nos prières<span class="label label-danger">New</span></a></li>
-                    			<li><a href="shop-product.html">Soyons Unis <span class="label label-danger">New</span></a></li>
+                              <li><a href="bilan">Bilan de notre défi</a></li>
+                              <li><a href="chartre">Chartre de la MEICG</a></li>
+                    			<li><a href="les-chretiens-persecutes">Les chrétiens persécutés<span class="label label-info">!</span></a></li>
+                    			<li><a href="reponse-prieres">Réponse à nos prières<span class="label label-danger">New</span></a></li>
+                    			<li><a href="soyons-unis">Soyons Unis <span class="label label-danger">New</span></a></li>
                             </ul>
                           </div>
                         </div>
