@@ -50,6 +50,11 @@ Route::get('soyons-unis', function()
     return view('soyons-unis');
 });
 
+Route::get('membre', function()
+{
+    return view('login');
+});
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

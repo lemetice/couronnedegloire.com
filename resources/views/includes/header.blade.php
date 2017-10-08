@@ -59,7 +59,7 @@
                 <li><a href="about">A propos</a>
                   <ul class="dropdown">
                     <li><a href="about">Vue d'ensemble</a></li>
-                    <li><a href="auth/login">Membre</a></li>
+                    <li><a href="membre">Membre</a></li>
                     <li><a href="our-staff">Notre Staff</a></li>
                 	<li><a href="contact">Contact</a></li>
                   </ul>
