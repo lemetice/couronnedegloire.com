@@ -55,6 +55,14 @@
 <script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
 <script src="style-switcher/js/jquery_cookie.js"></script> 
 <script src="style-switcher/js/script.js"></script> 
-<!-- Style Switcher Start -->
+<!-- Solves csrf token mismatched issue 
+<script type="text/javascript">
+	    $.ajaxSetup({
+	        headers: {
+	            //'X-CSRF-TOKEN': $('[name="csmetarf-token"]').attr('content')
+	            'X-CSRF-TOKEN': {{ csrf_token() }}
+	        }
+	    });
+</script>-->
 </body>
 </html>

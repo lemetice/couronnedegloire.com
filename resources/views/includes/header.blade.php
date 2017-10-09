@@ -64,7 +64,7 @@
                 	<li><a href="contact">Contact</a></li>
                   </ul>
                 </li>
-                <li class="megamenu"><a href="shortcodes.html">Mega Menu</a>
+                <li class="megamenu"><a href="shortcodes.html">Menu</a>
                   <ul class="dropdown">
                     <li>
                       <div class="megamenu-container container">

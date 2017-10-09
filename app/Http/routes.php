@@ -55,6 +55,16 @@ Route::get('membre', function()
     return view('login');
 });
 
+/*
+|--------------------------------------------------------------------------
+| Articles Routes
+|--------------------------------------------------------------------------
+|Here is where we register all of the routes for CRUD operation on.
+| articles.
+|
+
+Route::resource('home', 'ArticleController');
+*/
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
