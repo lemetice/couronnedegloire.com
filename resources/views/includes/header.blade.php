@@ -109,7 +109,7 @@
                     <li><a href="events-calendar.html">Consécration</a></li>
                     <li><a href="events-grid.html">Live sur Facebook</a></li>
                     <li><a href="single-event.html">Retrait spirituelle</a></li>
-                    <li><a href="events.html">Tous</a></li>
+                    <li><a href="events.html">Annonces</a></li>
                   </ul>
                 </li>
                 <li><a href="sermons.html">Sermons</a>
