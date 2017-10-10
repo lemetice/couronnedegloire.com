@@ -1,8 +1,8 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
 use DB;
 use Input;
@@ -44,8 +44,8 @@ class HomeController extends Controller {
         $auth_user = $request->user();
         
         //Get all articles
-        $articles = Article::all();
-        //$articles->setPath('home');return $articles
+        $articles = DB::table('articles')->get();
+        //$articles->setPath('home');
         
         return view('home', compact('articles', 'auth_user'));
 	}
@@ -61,14 +61,14 @@ class HomeController extends Controller {
 		
 		$carbon = Carbon::now('Europe/paris');
 		$dt = $carbon->format('Y-m-d H:i:s');
-        //dd($request);
+        $temp ="upload/evang/article1.png";
         //Save the candidate info
         $article = new Article(array(
                     'title'   => $request->get('title'),
                     'author_id' => $request->user()->id,
                     'type' => $request->get('type'),
                     'body' => $request->get('desc'),
-                    'media_url' => $request->get('media_url'),
+                    'media_url' => $temp,
                     'published_at' => $dt,
                     'created_at' => $dt,
                     'updated_at' => $dt
@@ -95,6 +95,8 @@ class HomeController extends Controller {
             Session::flash('success_message', 'Article ajouté avec succès!');
         }
         */
+
+        Session::flash('success_message', 'Article créer avec succès!');
         return redirect('home');
 	}
 

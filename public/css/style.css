@@ -218,6 +218,12 @@ blockquote cite{
 blockquote cite:before{
 	content:"- ";
 }
+/*Display the first 3 lines of a paragraph*/
+p.first-three-lines{
+    height:60px;
+    line-height:20px; /* Height / no. of lines to display */
+    overflow:hidden;
+}
 p{
 	font-size:14px;
 	line-height:20px;
@@ -3080,3 +3086,4 @@ span.progress-bar-tooltip:after {
 	right:38px;
 	left:auto;
 }
+

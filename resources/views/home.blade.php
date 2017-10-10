@@ -25,9 +25,52 @@
 							</ul>
 			              <div class="tab-content">
 			                <div id="sampletab1" class="tab-pane active">
+			                  	<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add article</button><br>
 			                  <p class="drop-caps secondary">Les articles tel que envangelisation, repas du lundi, pain du jour,pain du ciel.ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p><br>
+
+			                  <!-- Liste d'articles-->
+								<div class="row">
+						          	<div class="col-md-12 posts-archive causes-archive">
+						          	   <!-- content for a particular article to loop through -->
+						          	   @if(count($articles) == 0)
+								         <div class="no_results bluecolor"> <h1>Aucun article trouvé</h1></div>								        
+								        @endif
+
+        								@foreach($articles as $article)
+							            <article class="post cause-item">
+							              <div class="row">
+							                <div class="col-md-4 col-sm-4">
+							                	<a href="{{url('/home/'.$article->id)}}">
+										 	@if( $article->media_url === null  )                       
+						                        <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
+						                    @else
+						                        <img class="img-responsive" src="{{ URL::asset($article->media_url) }}" alt="Avatar" />
+						                    @endif
+							                </div>
+							                <div class="col-md-8 col-sm-8">
+							                  <h3><a href="{{url('/home/'.$article->id)}}">{{ $article->title  }}</a></h3>
+							                  <span class="post-meta meta-data">
+							                  	<span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
+							                    <span><i class="fa fa-archive"></i> <a href="#">Education</a>, <a href="#">Africa</a></span>
+							                    <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
+							                  </span>
+							                  <div class="progress-label">			             
+							                  	<button class="cause-days-togo label label-default pull-right btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Edit Article</button><br>
+							                  </div>
+							                  <div class="progress">
+							                    <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
+							                  </div>
+							                  <p style="height:60px;
+											    line-height:20px; /* Height / no. of lines to display */
+											    overflow:hidden;" >{{ $article->body  }}</p>
+							                </div>
+							              </div>
+							            </article>
+							            @endforeach
+						            </div>
+						        </div>    
+
 			                  <div class="col-md-4">
-			                  	<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Add article</button>
 								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					              <div class="modal-dialog">
 					                <div class="modal-content">
