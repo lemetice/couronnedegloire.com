@@ -35,11 +35,9 @@
 					                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					                    <h4 class="modal-title" id="myModalLabel">Evangelisation</h4>
 					                  </div>
-					                  <div class="modal-body"> @include('forms.partial') </div>
-					                  <div class="modal-footer">
-					                    <button type="button" class="btn btn-default inverted" data-dismiss="modal">Close</button>
-					                    <button type="button" class="btn btn-primary">Save changes</button>
-					                  </div>
+					                  <!-- Call the body, form & footer of the modal -->
+					                   @include('forms.partial') 
+					                  <!-- End modal content -->
 					                </div>
 					              </div>
 					            </div>

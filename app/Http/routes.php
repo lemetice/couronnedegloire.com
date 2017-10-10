@@ -62,9 +62,9 @@ Route::get('membre', function()
 |Here is where we register all of the routes for CRUD operation on.
 | articles.
 |
-
-Route::resource('home', 'ArticleController');
 */
+Route::resource('home', 'HomeController');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

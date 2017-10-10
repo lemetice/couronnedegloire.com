@@ -1,53 +1,48 @@
 <?php namespace App\Http\Controllers;
 
 use App\Http\Requests;
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-use DB;
-use Input;
-use Session;
-use App\Article;
-use Carbon\Carbon;
+use Illuminate\Http\Request;
 
-class HomeController extends Controller {
-
+class ArticleController extends Controller {
 	/*
 	|--------------------------------------------------------------------------
-	| Home Controller
+	| Application Routes protection
 	|--------------------------------------------------------------------------
-	|
-	| This controller renders your application's "dashboard" for users that
-	| are authenticated. Of course, you are free to change or remove the
-	| controller as you wish. It is just here to get your app started!
+	| Protecting CRUD operations on article . Only signed in user(s) can view article page
+	| 
 	|
 	*/
-
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
-	public function __construct()
-	{
-		$this->middleware('auth');
-	}
-
-	/**
-	 * Show the application dashboard to the user.
+	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function index(Request $request)
-	{	
+	public function index()
+	{
 		//Get authenticated user
         $auth_user = $request->user();
         
         //Get all articles
         $articles = Article::all();
-        //$articles->setPath('home');return $articles
+        //$candidates->setPath('home');return $articles
         
         return view('home', compact('articles', 'auth_user'));
+	}
+
+	/**
+	 * Show the form for creating a new resource.
+	 *
+	 * @return Response
+	 */
+	public function create()
+	{
+		//
 	}
 
 	/**
@@ -55,17 +50,17 @@ class HomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(Request $request)
+	public function store()
 	{
 		//get the current date and time
 		
-		$carbon = Carbon::now('Europe/paris');
+		$carbon = Carbon::now('Africa/douala');
 		$dt = $carbon->format('Y-m-d H:i:s');
-        //dd($request);
+        
         //Save the candidate info
         $article = new Article(array(
                     'title'   => $request->get('title'),
-                    'author_id' => $request->user()->id,
+                    'author_id' => Auth::user()->id,
                     'type' => $request->get('type'),
                     'body' => $request->get('desc'),
                     'media_url' => $request->get('media_url'),
@@ -98,5 +93,48 @@ class HomeController extends Controller {
         return redirect('home');
 	}
 
+	/**
+	 * Display the specified resource.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function show($id)
+	{
+		//
+	}
+
+	/**
+	 * Show the form for editing the specified resource.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function edit($id)
+	{
+		//
+	}
+
+	/**
+	 * Update the specified resource in storage.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function update($id)
+	{
+		//
+	}
+
+	/**
+	 * Remove the specified resource from storage.
+	 *
+	 * @param  int  $id
+	 * @return Response
+	 */
+	public function destroy($id)
+	{
+		//
+	}
 
 }
