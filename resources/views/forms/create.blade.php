@@ -15,26 +15,30 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-            <input type="text" name="title" class="form-control" placeholder="Titre (Required)">
+            <input type="text" name="title" class="form-control" placeholder="Titre (Required)" required="required">
             </div>
             <div class="col-md-6">
+                
+                <input type="file" name="media_url" class="form-control" >
+                <!--{!! Form::file('media', ['class' => 'form-control', 'id'=>'article_img', 'required']) !!}
+                
                 <input type="file" name="img" class="form-control" onchange="readURL(this);">
-                <img id="media_url" src="#" alt="Selected image" />
+                <img id="media_url" src="#" alt="Selected image" />-->
             </div>
             <div class="col-md-6">
-                <select name="type" class="form-control">
+                <select name="type" class="form-control" required>
                   <option value="1">Evagelisation</option>
                   <option value="2">Repas du Lundi</option>
-                  <option value="3">Over 30</option>
+                  <option value="3">Pain du jour</option>
                 </select>
             </div>
             <div class="col-md-6">
-            <input type="date" name="published_at" class="form-control" placeholder="Date de publication">
+                <input type="date" name="published_at" class="form-control" >
             </div>
         </div>
         <div class="row">
             <div class="col-md-12">
-            <textarea rows="3" cols="5" class="form-control" name="desc" placeholder="Description"></textarea>
+            <textarea rows="3" cols="5" class="form-control" name="desc" placeholder="Description" required></textarea>
             </div>
         </div>
 </div>
