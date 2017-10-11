@@ -65,6 +65,8 @@ Route::get('membre', function()
 */
 Route::resource('home', 'HomeController');
 
+Route::resource('evangelisation', 'EvangelisationController');
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
