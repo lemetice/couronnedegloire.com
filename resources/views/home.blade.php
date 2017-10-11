@@ -26,7 +26,7 @@
 			              <div class="tab-content">
 			                <div id="sampletab1" class="tab-pane active">
 			                  	<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add article</button><br>
-			                  <p class="drop-caps secondary">Les articles tel que envangelisation, repas du lundi, pain du jour,pain du ciel.ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales vel dolor.</p><br>
+			                  <br>
 
 			                  <!-- Liste d'articles-->
 								<div class="row">
@@ -55,7 +55,7 @@
 							                    <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
 							                  </span>
 							                  <div class="progress-label">			             
-							                  	<button class="cause-days-togo label label-default pull-right btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Edit Article</button><br>
+							                  	<button class="cause-days-togo label label-default pull-right btn btn-primary btn-lg" data-toggle="modal" data-target="#editArticleModal">Edit Article</button><br>
 							                  </div>
 							                  <div class="progress">
 							                    <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
@@ -71,6 +71,7 @@
 						        </div>    
 
 			                  <div class="col-md-4">
+								<!--create form modal-->
 								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 					              <div class="modal-dialog">
 					                <div class="modal-content">
@@ -79,7 +80,21 @@
 					                    <h4 class="modal-title" id="myModalLabel">Evangelisation</h4>
 					                  </div>
 					                  <!-- Call the body, form & footer of the modal -->
-					                   @include('forms.partial') 
+					                   @include('forms.create') 
+					                  <!-- End modal content -->
+					                </div>
+					              </div>
+					            </div>
+					            <!--Edit form modal-->
+					            <div class="modal fade" id="editArticleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					              <div class="modal-dialog">
+					                <div class="modal-content">
+					                  <div class="modal-header">
+					                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					                    <h4 class="modal-title" id="myModalLabel">Evangelisation</h4>
+					                  </div>
+					                  <!-- Call the body, form & footer of the modal -->
+					                   @include('forms.edit') 
 					                  <!-- End modal content -->
 					                </div>
 					              </div>
