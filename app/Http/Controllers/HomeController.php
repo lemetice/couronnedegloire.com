@@ -68,6 +68,7 @@ class HomeController extends Controller {
                     'title'   => $request->get('title'),
                     'author_id' => $request->user()->id,
                     'type' => $request->get('type'),
+                    'slug' => str_slug($request->get('title')), 
                     'body' => $request->get('desc'),                    
                     'published_at' => $dt,
                     'created_at' => $dt,
@@ -133,7 +134,8 @@ class HomeController extends Controller {
                                 
                 $article->media_url = 'uploads/article'.$imageName;
                 $article->title = $request->input('title');
-                $article->body = $request->input('body');
+                $article->slug  = str_slug($request->input('title'));
+                $article->body  = $request->input('body');
                 $article->updated_at = $dt;
                 $article->save();
                 /*Flash the user on action executed*/
@@ -142,6 +144,7 @@ class HomeController extends Controller {
             }else{
                 $article->media_url = 'uploads/article'.$imageName;
                 $article->title = $request->input('title');
+                $article->slug = str_slug($request->input('title'));
                 $article->body = $request->input('body');
                 $article->updated_at = $dt;
                 $article->save();

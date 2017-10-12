@@ -1,5 +1,7 @@
 <div class="modal-body">
-
+    @if(!isset($articles))
+        <div style="background-color: red"></div>
+    @endif
     <!-- Modal content-->
         {!! Form::model($article, 
         ['method'    => 'PATCH', 

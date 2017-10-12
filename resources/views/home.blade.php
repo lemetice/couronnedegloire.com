@@ -93,8 +93,8 @@
 					                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					                    <h4 class="modal-title" id="myModalLabel">Evangelisation</h4>
 					                  </div>
-					                  <!-- Call the body, form & footer of the modal -->
-					                   @include('forms.edit') 
+					                  <!-- Call the body, form & footer of the modal 
+					                   @include('forms.edit') -->
 					                  <!-- End modal content -->
 					                </div>
 					              </div>

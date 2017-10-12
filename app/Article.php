@@ -21,7 +21,7 @@ class Article extends Model {
      * @var array
      */
     protected $fillable = [ 'author_id', 'title', 'body', 'published_at', 
-    						'location', 'type', 'media_url'
+    						'location', 'type', 'media_url', 'slug'
     						];
 
     /**
@@ -29,7 +29,10 @@ class Article extends Model {
      *
      * @var array
      */
-    //protected $hidden = ['view_count', 'publication_status'];
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
 
 
     //An article is owned by one user
