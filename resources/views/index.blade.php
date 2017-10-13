@@ -4,7 +4,7 @@
   <!-- Start Hero Slider -->
   <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
     <ul class="slides">
-      <li class=" parallax" style="background-image:url(images/slide11.jpg);"></li>
+      <li class=" parallax" style="background-image:url(images/slide1.jpg);"></li>
       <li class="parallax" style="background-image:url(images/slide2.jpg);"></li>
     </ul>
   </div>
@@ -56,7 +56,6 @@
                           </p> 
                           <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
                         </blockquote>
-                        <div class="spacer-20"></div>
                     </div>
                     </div>
                   </li>
@@ -70,7 +69,6 @@
                           </p> 
                           <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
                         </blockquote>
-                        <div class="spacer-20"></div>
                       </div>
                     </div>
                   </li>
@@ -78,14 +76,12 @@
                     <div>
                     <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
                         <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
-                        <span style="border:0px solid #f1f1f1; border-radius:0; background:#f2f2f2;">
-                          <i class="fa fa-bell-o" style="color:#ec5355;"></i>
-                        </span>
-                     </div>        
-                    <div class="swmsc_services_icon_content">
-                      <h5 style="font-size:22px; color:#444444;margin-bottom:15px;">Building Holy and Healthy Lives</h5>
-                      Vitae optio distinctio necessitatibus earum facere magni natus eaque consectetur, esse corporis dolore ostrum ullam.
-                      </div>
+                          <blockquote>
+                          <p>Building Holy and Healthy Lives</h5>
+                            Vitae optio distinctio necessitatibus earum facere magni natus eaque consectetur, esse corporis dolore ostrum ullam..
+                          </p> 
+                          <cite style="color: #C71B1B"></cite>
+                        </blockquote>
                       </div>
                     </div>
                   </li>
@@ -95,7 +91,7 @@
                         <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
                           <blockquote>
                           <p>
-                               Reçois pour cela Mon onction, veille à ce que Ma Parole s'accomplisse Mon enfant. Ne crains rien, car je te mandate. Sache que, il est de toi comme il fût du Prophète Jérémie pour lequel j'ai déclaré : "Avant de te former dans le ventre de ta mère, je te connaissais, et avant que tu naîsses, je t'avais consacré, je t'avais désigné prophète pour les nations
+                               Reçois pour cela Mon onction, veille à ce que Ma Parole s'accomplisse Mon enfant. Ne crains rien, car je te mandate. Sache que, il est de toi comme il fût du Prophète Jérémie pour lequel j'ai déclaré :...
                           </p> 
                           <cite style="color:#C71B1B">Jérémie 1 : 5</cite>
                         </blockquote>
@@ -105,7 +101,6 @@
                 </ul>
               </section>
             </div>
-            <div class="spacer-30"></div>
           </div>
           <div class="col-md-6 col-sm-6"> 
             <!-- His/her Image  -->            
@@ -117,7 +112,7 @@
                 <ul>
                   <li class="item sermon featured-sermon">
                     <div class="featured-sermon-video">
-                      <img src="images/prophetesse.jpeg" alt="staff">
+                      <img src="{{ asset('/images/prophetesse.jpeg') }}" alt="staff">
                     </div>
                   </li>                  
                 </ul>
@@ -129,9 +124,9 @@
         <div class="row"> 
           <!-- Start Featured Blocks -->
           <div class="featured-blocks clearfix">
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="our-staff.html" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Our Pastors</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="about.html" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>New Here</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="sermons.html" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Sermons Archive</strong> <span class="more">read more</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/about#our-staff') }}" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Our Pastors</strong> <span class="more">read more</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/about') }}" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>New Here</strong> <span class="more">read more</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/sermons') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Sermons Archive</strong> <span class="more">read more</span> </a> </div>
           </div>
           <!-- End Featured Blocks --> 
         </div>
@@ -147,19 +142,19 @@
                   <li class="item event-item">
                     <div class="event-date"> <span class="date">06</span> <span class="month">Aug</span> </div>
                     <div class="event-detail">
-                      <h4><a href="single-event.html">Monday Prayer</a></h4>
+                      <h4><a href="{{ url('/about') }}">Monday Prayer</a></h4>
                       <span class="event-dayntime meta-data">Monday | 07:00 AM</span> </div>
                     <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
+                      <div><a href="{{ url('/about') }}" class="btn btn-default btn-sm">Details</a></div>
                     </div>
                   </li>
                   <li class="item event-item">
                     <div class="event-date"> <span class="date">28</span> <span class="month">Aug</span> </div>
                     <div class="event-detail">
-                      <h4><a href="single-event.html">Staff members meet</a></h4>
+                      <h4><a href="{{ url('/about') }}">Staff members meet</a></h4>
                       <span class="event-dayntime meta-data">Monday | 01:00 PM</span> </div>
                     <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
+                      <div><a href="{{ url('/about') }}" class="btn btn-default btn-sm">Details</a></div>
                     </div>
                   </li>
                   <li class="item event-item">
@@ -178,32 +173,34 @@
             <!-- Latest News -->
             <div class="listing post-listing">
               <header class="listing-header">
-                <h3>Latest News</h3>
+                <h3>Dernières nouvelles</h3>
               </header>
               <section class="listing-cont">
+                   @if(count($articles) == 0)
+                         <div class="no_results bluecolor"> <h1>Aucun article trouvé</h1></div>                       
+                    @endif
                 <ul>
-                  <li class="item post">
-                    <div class="row">
-                      <div class="col-md-4"> <a href="#" class="media-box"> <img src="images/blog-image3.jpg" alt="" class="img-thumbnail"> </a></div>
-                      <div class="col-md-8">
-                        <div class="post-title">
-                          <h2><a href="blog-post.html">Voluptatum deleniti atque corrupti</a></h2>
-                          <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
+                  @foreach($articles as $article)
+                    <li class="item post">
+                      <div class="row">
+                        <div class="col-md-4"> 
+                        <a href="{{url('/evangelisation/'.$article->slug)}}">
+                            @if( $article->media_url === null  )                       
+                                    <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
+                            @else
+                              <img class="img-responsive" src="{{ URL::asset($article->media_url) }}" alt="Avatar" />
+                            @endif</div>
+                        <div class="col-md-8">
+                          <div class="post-title">
+                            <h2><a href="{{url('/evangelisation/'.$article->slug)}}">{{ $article->title  }}</a></h2>
+                            <span class="meta-data"><i class="fa fa-calendar"></i> on {{$article->created_at}}</span></div>
+                          <p style="height:60px;
+                          line-height:20px; /* Height / no. of lines to display */
+                          overflow:hidden;" >{{ $article->body  }}</p>
+                        </div>
                       </div>
-                    </div>
-                  </li>
-                  <li class="item post">
-                    <div class="row">
-                      <div class="col-md-4"> <a href="blog-post.html" class="media-box"> <img src="images/blog-image2.jpg" alt="" class="img-thumbnail"> </a></div>
-                      <div class="col-md-8">
-                        <div class="post-title">
-                          <h2><a href="blog-post.html">Voluptatum deleniti atque corrupti</a></h2>
-                          <span class="meta-data"><i class="fa fa-calendar"></i> on 17th Dec, 2013</span></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus.</p>
-                      </div>
-                    </div>
-                  </li>
+                    </li>
+                  @endforeach
                 </ul>
               </section>
             </div>

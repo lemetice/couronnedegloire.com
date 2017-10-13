@@ -1,4 +1,5 @@
 <?php namespace App\Http\Controllers;
+use DB;
 
 class WelcomeController extends Controller {
 
@@ -29,8 +30,13 @@ class WelcomeController extends Controller {
 	 * @return Response
 	 */
 	public function index()
-	{
-		return view('index');
+	{	
+
+        //Get all articles
+        $articles = DB::table('articles')->get();
+        
+        
+        return view('index', compact('articles'));
 	}
 
 }
