@@ -41,7 +41,7 @@
                           <article class="post cause-item">
                             <div class="row">
                               <div class="col-md-4 col-sm-4">
-                                <a href="{{url('/home/'.$article->id)}}">
+                                <a href="{{url('/evangelisation/'.$article->slug)}}">
                       @if( $article->media_url === null  )                       
                                     <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
                                 @else
@@ -49,7 +49,7 @@
                                 @endif
                               </div>
                               <div class="col-md-8 col-sm-8">
-                                <h3><a href="{{url('/home/'.$article->id)}}">{{ $article->title  }}</a></h3>
+                                <h3><a href="{{url('/evangelisation/'.$article->slug)}}">{{ $article->title  }}</a></h3>
                                 <span class="post-meta meta-data">
                                   <span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
                                   <span><i class="fa fa-archive"></i> <a href="#">Education</a>, <a href="#">Africa</a></span>

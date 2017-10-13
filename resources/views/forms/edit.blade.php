@@ -1,11 +1,10 @@
+
 <div class="modal-body">
-    @if(!isset($articles))
-        <div style="background-color: red"></div>
-    @endif
+    
     <!-- Modal content-->
-        {!! Form::model($article, 
+        {!! Form::model($article[0], 
         ['method'    => 'PATCH', 
-        'route' => ['home.update', $article->id], 
+        'route' => ['home.update', $article[0]->slug], 
         'class'      => 'form', 
         'novalidate' => 'novalidate', 
         'files'      =>  true

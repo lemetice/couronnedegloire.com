@@ -64,14 +64,12 @@
                     <div>
                     <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
                         <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
-                        <span style="border:0px solid #ec5355; border-radius:0; background:#f2f2f2;">
-                          <i class="fa fa-book" style="color:#ec5355;"></i>
-                        </span>
-                     </div>        
-                    <div class="swmsc_services_icon_content">
-                      <h5 style="font-size:22px; color:#444444;margin-bottom:15px;">Building Holy and Healthy Lives</h5>
-                      Vitae optio distinctio necessitatibus earum facere magni natus eaque consectetur, esse corporis dolore ostrum ullam.
-                                </div>
+                          <blockquote>
+                          <p>
+                               La persécution est un traitement injuste envers des chrétiens en raison de leur foi.
+                          </p> 
+                          <cite style="color: black">1 CORINTHIENS 14.33</cite>
+                        </blockquote>
                         <div class="spacer-20"></div>
                       </div>
                     </div>

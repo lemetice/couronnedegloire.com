@@ -14,20 +14,20 @@
 	<meta name="format-detection" content="telephone=no">
 	<!-- Favicon ======================== -->
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<!-- CSS
+	<link rel="icon" href="{{ asset('/favicon.ico') }}" type="image/x-icon">
+	<!-- CSS {{ asset('/') }}
 	  ================================================== -->
-	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<link href="plugins/mediaelement/mediaelementplayer.css" rel="stylesheet" type="text/css">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
-	<link href="plugins/prettyphoto/css/prettyPhoto.css" rel="stylesheet" type="text/css">
+	<link href="{{ asset('/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('/plugins/mediaelement/mediaelementplayer.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('/css/style.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('/plugins/prettyphoto/css/prettyPhoto.css') }}" rel="stylesheet" type="text/css">
 	<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8.css" media="screen" /><![endif]-->
 	<!-- Color Style -->
-	<link class="alt" href="colors/color1.css" rel="stylesheet" type="text/css">
-	<link href="style-switcher/css/style-switcher.css" rel="stylesheet" type="text/css">
+	<link class="alt" href="{{ asset('/colors/color1.css') }}" rel="stylesheet" type="text/css">
+	<link href="{{ asset('/style-switcher/css/style-switcher.css') }}" rel="stylesheet" type="text/css">
 	<!-- SCRIPTS
 	  ================================================== -->
-	<script src="js/modernizr.js"></script><!-- Modernizr -->
+	<script src="{{ asset('/js/modernizr.js') }}"></script><!-- Modernizr -->
 </head>
 <body>
 <!--[if lt IE 7]>
@@ -44,17 +44,17 @@
    
   <a id="back-to-top"><i class="fa fa-angle-double-up"></i></a> 
 </div>
-<script src="js/jquery-2.0.0.min.js"></script> <!-- Jquery Library Call --> 
-<script src="plugins/prettyphoto/js/prettyphoto.js"></script> <!-- PrettyPhoto Plugin --> 
-<script src="js/helper-plugins.js"></script> <!-- Plugins --> 
-<script src="js/bootstrap.js"></script> <!-- UI --> 
-<script src="js/waypoints.js"></script> <!-- Waypoints --> 
-<script src="plugins/mediaelement/mediaelement-and-player.min.js"></script> <!-- MediaElements --> 
-<script src="js/init.js"></script> <!-- All Scripts --> 
-<script src="plugins/flexslider/js/jquery.flexslider.js"></script> <!-- FlexSlider --> 
-<script src="plugins/countdown/js/jquery.countdown.min.js"></script> <!-- Jquery Timer --> 
-<script src="style-switcher/js/jquery_cookie.js"></script> 
-<script src="style-switcher/js/script.js"></script> 
+<script src="{{ asset('/js/jquery-2.0.0.min.js') }}"></script> <!-- Jquery Library Call --> 
+<script src="{{ asset('/plugins/prettyphoto/js/prettyphoto.js') }}"></script> <!-- PrettyPhoto Plugin --> 
+<script src="{{ asset('/js/helper-plugins.js') }}"></script> <!-- Plugins --> 
+<script src="{{ asset('/js/bootstrap.js') }}"></script> <!-- UI --> 
+<script src="{{ asset('/js/waypoints.js') }}"></script> <!-- Waypoints --> 
+<script src="{{ asset('/plugins/mediaelement/mediaelement-and-player.min.js') }}"></script> <!-- MediaElements --> 
+<script src="{{ asset('/js/init.js') }}"></script> <!-- All Scripts --> 
+<script src="{{ asset('/plugins/flexslider/js/jquery.flexslider.js') }}"></script> <!-- FlexSlider --> 
+<script src="{{ asset('/plugins/countdown/js/jquery.countdown.min.js') }}"></script> <!-- Jquery Timer --> 
+<script src="{{ asset('/style-switcher/js/jquery_cookie.js') }}"></script> 
+<script src="{{ asset('/style-switcher/js/script.js') }}"></script> 
 <!-- Solves csrf token mismatched issue 
 <script type="text/javascript">
 	    $.ajaxSetup({

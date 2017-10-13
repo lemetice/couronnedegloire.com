@@ -40,7 +40,7 @@
 							            <article class="post cause-item">
 							              <div class="row">
 							                <div class="col-md-4 col-sm-4">
-							                	<a href="{{url('/home/'.$article->id)}}">
+							                	<a href="{{url('/home/'.$article->slug)}}">
 										 	@if( $article->media_url === null  )                       
 						                        <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
 						                    @else
@@ -48,14 +48,13 @@
 						                    @endif
 							                </div>
 							                <div class="col-md-8 col-sm-8">
-							                  <h3><a href="{{url('/home/'.$article->id)}}">{{ $article->title  }}</a></h3>
+							                  <h3><a href="{{url('/home/'.$article->slug)}}">{{ $article->title  }}</a></h3>
 							                  <span class="post-meta meta-data">
 							                  	<span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
 							                    <span><i class="fa fa-archive"></i> <a href="#">Education</a>, <a href="#">Africa</a></span>
 							                    <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
 							                  </span>
-							                  <div class="progress-label">			             
-							                  	<button class="cause-days-togo label label-default pull-right btn btn-primary btn-lg" data-toggle="modal" data-target="#editArticleModal">Edit Article</button><br>
+							                  <div class="progress-label">			   
 							                  </div>
 							                  <div class="progress">
 							                    <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
@@ -81,20 +80,6 @@
 					                  </div>
 					                  <!-- Call the body, form & footer of the modal -->
 					                   @include('forms.create') 
-					                  <!-- End modal content -->
-					                </div>
-					              </div>
-					            </div>
-					            <!--Edit form modal-->
-					            <div class="modal fade" id="editArticleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-					              <div class="modal-dialog">
-					                <div class="modal-content">
-					                  <div class="modal-header">
-					                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					                    <h4 class="modal-title" id="myModalLabel">Evangelisation</h4>
-					                  </div>
-					                  <!-- Call the body, form & footer of the modal 
-					                   @include('forms.edit') -->
 					                  <!-- End modal content -->
 					                </div>
 					              </div>

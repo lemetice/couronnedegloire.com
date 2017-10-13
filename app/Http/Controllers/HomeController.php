@@ -101,7 +101,23 @@ class HomeController extends Controller {
         return redirect('home');
 	}
 
-		/**
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function show(Request $request, $id)
+    {   
+        //Get authenticated user
+        $auth_user = $request->user();
+        $article = DB::table('articles')->where('slug','=',$id)->get();
+
+        return view('single-article', compact('article', 'auth_user'));
+
+    }
+
+	/**
 	 * Update the specified candidate in storage.
 	 *
 	 * @param  int  $id
@@ -112,8 +128,8 @@ class HomeController extends Controller {
 	   //get the current date and time
 		
 		$dt = Carbon::now('Africa/douala')->format('Y-m-d H:i:s');
-        dd($id);
-		$article = Article::findOrFail($id);
+        
+        $article = DB::table('articles')->where('slug','=',$id)->get();
         
         /*upload & resize image to application*/
         if (Input::hasFile('media_url'))
@@ -122,32 +138,45 @@ class HomeController extends Controller {
                 $destFolderName        = '';            // the name of the folder you want to keep your uploaded pics
                 $updateMode            = 1;
                 $tableName             = 'articles';               // the name of database where the data are coming from
-                $objectId              = $article->id;             // here the id of the new object you just saved
+                $objectId              = $article[0]->id;             // here the id of the new object you just saved
                 $imageName             = Utility::handleImages($file, $destFolderName, $objectId, $tableName, $updateMode); 
                 
-                if($imageName == $article->media_url){
+                if($imageName == $article[0]->media_url){
                     
-                    $article->media_url = $article->media_url;
+                    $article[0]->media_url = $article[0]->media_url;
                     Session::flash('error_message', "Votre image doit avoir une taille d'au moins 120x136 pixel");
                     return redirect('home/');
                 }
                                 
-                $article->media_url = 'uploads/article'.$imageName;
-                $article->title = $request->input('title');
-                $article->slug  = str_slug($request->input('title'));
-                $article->body  = $request->input('body');
-                $article->updated_at = $dt;
-                $article->save();
+                $article[0]->media_url = 'uploads/article'.$imageName;
+                $article[0]->title = $request->input('title');
+                $article[0]->slug  = str_slug($request->input('title'));
+                $article[0]->body  = $request->input('body');
+                $article[0]->updated_at = $dt;                
+
+                DB::table('articles')->update([
+                    'title' => $article[0]->title,
+                    'slug' => $article[0]->slug,
+                    'body' => $article[0]->body,
+                    'updated_at' => $article[0]->updated_at,
+                    'media_url'=> $article[0]->media_url
+                    ]);
                 /*Flash the user on action executed*/
                 $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
                 return redirect('home/');
             }else{
-                $article->media_url = 'uploads/article'.$imageName;
-                $article->title = $request->input('title');
-                $article->slug = str_slug($request->input('title'));
-                $article->body = $request->input('body');
-                $article->updated_at = $dt;
-                $article->save();
+                //$article->media_url = 'uploads/article'.$imageName;
+                $article[0]->title = $request->get('title');
+                $article[0]->slug = str_slug($request->get('title'));
+                $article[0]->body = $request->get('body');
+                $article[0]->updated_at = $dt;
+
+                DB::table('articles')->update([
+                    'title' => $article[0]->title,
+                    'slug' => $article[0]->slug,
+                    'body' => $article[0]->body,
+                    'updated_at' => $article[0]->updated_at]);
+
                 /*Flash the user on action executed*/
                 $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
                 return redirect('home/');

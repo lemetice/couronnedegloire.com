@@ -12,7 +12,7 @@
         <!-- Start Footer Widgets -->
         <div class="col-md-4 col-sm-4 widget footer-widget">
           <h4 class="footer-widget-title">MEICG</h4>
-          <img src="images/logo.png" alt="Logo">
+          <img src="{{ asset('/images/logo.png') }}" alt="Logo">
           <div class="spacer-20"></div>
           <p>Mission Evangelique la Couronne de Gloire</p>
         </div>

@@ -14,7 +14,7 @@ class CreateArticlesTable extends Migration {
 	{
 		Schema::create('articles', function(Blueprint $table)
 		{	
-			$default_media_url="public/images/album-cover.png";
+			$default_media_url="images/album-cover.png";
 			
 			$table->increments('id');
 			$table->integer('author_id')->unsigned();

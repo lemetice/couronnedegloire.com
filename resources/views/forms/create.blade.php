@@ -1,3 +1,4 @@
+
 <div class="modal-body">
 
     {!! Form::open(
@@ -48,7 +49,8 @@
 
     {!! Form::submit('Valider', ['class' => 'btn btn-primary']) !!}
 </div>
-{!! Form:: close() !!}  
+{!! Form:: close() !!} 
+
 <script type="text/javascript">
      function readURL(input) {
             if (input.files && input.files[0]) {

@@ -56,7 +56,11 @@ class EvangelisationController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		
+        $article = DB::table('articles')->where('slug','=',$id)->get();
+        
+        return view('single-article', compact('article'));
+
 	}
 
 	/**
