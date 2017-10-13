@@ -112,7 +112,9 @@ class HomeController extends Controller {
         //Get authenticated user
         $auth_user = $request->user();
         $article = DB::table('articles')->where('slug','=',$id)->get();
-
+        if(empty($article))
+            return view('errors.404');
+        else
         return view('single-article', compact('article', 'auth_user'));
 
     }

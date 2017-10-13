@@ -4,7 +4,7 @@
   <!-- Start Hero Slider -->
   <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
     <ul class="slides">
-      <li class=" parallax" style="background-image:url(images/slide1.jpg);"></li>
+      <li class=" parallax" style="background-image:url(images/slide11.jpg);"></li>
       <li class="parallax" style="background-image:url(images/slide2.jpg);"></li>
     </ul>
   </div>
@@ -54,7 +54,7 @@
                           <p>
                                La persécution est un traitement injuste envers des chrétiens en raison de leur foi.
                           </p> 
-                          <cite style="color: black">1 CORINTHIENS 14.33</cite>
+                          <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
                         </blockquote>
                         <div class="spacer-20"></div>
                     </div>
@@ -68,7 +68,7 @@
                           <p>
                                La persécution est un traitement injuste envers des chrétiens en raison de leur foi.
                           </p> 
-                          <cite style="color: black">1 CORINTHIENS 14.33</cite>
+                          <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
                         </blockquote>
                         <div class="spacer-20"></div>
                       </div>
@@ -89,6 +89,19 @@
                       </div>
                     </div>
                   </li>
+                  <li class="item event-item">
+                    <div>
+                    <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
+                        <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
+                          <blockquote>
+                          <p>
+                               Reçois pour cela Mon onction, veille à ce que Ma Parole s'accomplisse Mon enfant. Ne crains rien, car je te mandate. Sache que, il est de toi comme il fût du Prophète Jérémie pour lequel j'ai déclaré : "Avant de te former dans le ventre de ta mère, je te connaissais, et avant que tu naîsses, je t'avais consacré, je t'avais désigné prophète pour les nations
+                          </p> 
+                          <cite style="color:#C71B1B">Jérémie 1 : 5</cite>
+                        </blockquote>
+                        </div>
+                    </div>
+                  </li>
                 </ul>
               </section>
             </div>
@@ -98,13 +111,13 @@
             <!-- His/her Image  -->            
             <div class="listing sermons-listing">
               <header class="listing-header">
-                <h3>La prophétesse</h3>
+                <h3><strong>La prophétesse Sylvie Jango</strong></h3>
               </header>
               <section class="listing-cont">
                 <ul>
                   <li class="item sermon featured-sermon">
                     <div class="featured-sermon-video">
-                      <img src="images/staff1.jpg" alt="staff">
+                      <img src="images/prophetesse.jpeg" alt="staff">
                     </div>
                   </li>                  
                 </ul>

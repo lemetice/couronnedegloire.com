@@ -59,7 +59,10 @@ class EvangelisationController extends Controller {
 		
         $article = DB::table('articles')->where('slug','=',$id)->get();
         
-        return view('single-article', compact('article'));
+        if(empty($article))
+        	return view('errors.404');
+        else
+       		return view('single-article', compact('article'));
 
 	}
 
