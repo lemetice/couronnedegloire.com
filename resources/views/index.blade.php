@@ -12,6 +12,7 @@
   <!-- Start Notice Bar -->
   <div class="notice-bar">
     <div class="container">
+      <!-- Add upcoming event here ....
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-title"> <span class="notice-bar-title-icon hidden-xs"><i class="fa fa-calendar fa-3x"></i></span> <span class="title-note">Next</span> <strong>Événements</strong> </div>
         <div class="col-md-3 col-sm-6 col-xs-6 notice-bar-event-title">
@@ -24,7 +25,7 @@
           <div class="timer-col"> <span id="seconds"></span> <span class="timer-type">secs</span> </div>
         </div>
         <div class="col-md-2 col-sm-6 hidden-xs"> <a href="events.html" class="btn btn-primary btn-lg btn-block">All Events</a> </div>
-      </div>
+      </div>-->
     </div>
   </div>
   <!-- End Notice Bar --> 
