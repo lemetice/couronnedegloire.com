@@ -50,6 +50,10 @@ Route::get('soyons-unis', function()
     return view('soyons-unis');
 });
 
+Route::get('mentions-legales', function()
+{
+    return view('mentions-legales');
+});
 Route::get('membre', function()
 {
     return view('login');
