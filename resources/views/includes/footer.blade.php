@@ -14,10 +14,10 @@
           <h4 class="footer-widget-title">MEICG</h4>
           <img src="{{ asset('/images/logo.png') }}" alt="Logo">
           <div class="spacer-20"></div>
-          <p>Mission Evangelique la Couronne de Gloire</p>
+          <p><strong>Mission Evangelique la Couronne de Gloire</strong></p>
         </div>
         <div class="col-md-4 col-sm-4 widget footer-widget">
-          <h4 class="footer-widget-title">Blogroll</h4>
+          <h4 class="footer-widget-title">Notre site</h4>
           <ul>
             <li><a href="{{url('/')}}">Accueil</a></li>
             <li><a href="{{url('about')}}">A propos</a></li>
@@ -29,9 +29,9 @@
         <div class="col-md-4 col-sm-4 widget footer-widget">
           <h4 class="footer-widget-title">MEICG sur les reseaux sociaux</h4>
           <div class="social-icons"> 
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> 
-            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="http://www.youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a> 
+            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"style="font-size:36px"></i></a> 
+            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:36px"></i></a>
+            <a href="http://www.youtube.com/" target="_blank"><i class="fa fa-youtube" style="font-size:36px"></i></a> 
            </div>
         </div>
       </div>
