@@ -15,9 +15,9 @@
           </div>
           <div class="col-md-8 col-sm-6 col-xs-4">
             <ul class="top-navigation hidden-sm hidden-xs"><!--
-              <li><a href="plan-visit.html">Plan your visit</a></li>-->
+              <li><a href="plan-visit.html">Plan your visit</a></li>
               <li><a href="{{ url('/events') }}">calendrier</a></li>
-              <li><a href="{{ url('/donate') }}">Faire un don</a></li>
+              <li><a href="{{ url('/donate') }}">Faire un don</a></li>-->
             </ul>
             <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a> </div>
         </div>
