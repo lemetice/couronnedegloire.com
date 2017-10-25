@@ -58,9 +58,10 @@
                 </li>
                 <li><a href=" {{ url('/about') }}">Nous connaitre</a>
                   <ul class="dropdown">
-                    <li><a href="{{ url('/about') }}">Vue d'ensemble</a></li>
+                    <li><a href="{{ url('/about') }}">Profil</a></li>
+                    <li><a href="{{ url('/about') }}">vision</a></li>
                     <li><a href="{{ url('/auth/login') }}">Membre</a></li>
-                    <li><a href="{{ url('/our-staff') }}">Equipe</a></li>
+                    <li><a href="{{ url('/equipe') }}">Équipe</a></li>
                     <li><a href="{{ url('/bilan') }}">Bilan</a></li>
                     <li><a href="{{ url('/chartre') }}">Chartre</a></li>
                   </ul>
@@ -110,12 +111,12 @@
                     </ul>
                   </li> 
                 -->
-                <li><a href="{{ url('evangelisation') }}">Actualité</a>                  
+                <li><a href="{{ url('actualites') }}">Actualités</a>                  
                 </li>
-                <li><a href="sermons.html">Ressources</a>
+                <li><a href="{{ url('livre') }}">Ressources</a>
                   <ul class="dropdown">
+                    <li><a href="{{ url('livre') }}">Livre</a></li>
                     <li><a href="{{ url('/') }}">Audio</a></li>
-                    <li><a href="{{ url('/') }}">Livre</a></li>
                     <li><a href="{{ url('/') }}">Youtube</a></li>
                     <li><a href="{{ url('/') }}">Gallerie</a></li>
                   </ul>

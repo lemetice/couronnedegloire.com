@@ -54,6 +54,16 @@ Route::get('mentions-legales', function()
 {
     return view('mentions-legales');
 });
+
+Route::get('equipe', function()
+{
+    return view('equipe');
+});
+
+
+Route::get('actualites', 'WelcomeController@actualites');
+
+
 Route::get('membre', function()
 {
     return view('login');

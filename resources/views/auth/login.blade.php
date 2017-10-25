@@ -11,7 +11,6 @@
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<strong>Espace Membre</strong>
-						<a href="{{url('/')}}" class="btn btn-danger btn-sm" style="float: right;">Acceuil</a>
 					</div>
 					<div class="panel-body">
 						@if (count($errors) > 0)

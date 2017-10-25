@@ -33,10 +33,24 @@ class WelcomeController extends Controller {
 	{	
 
         //Get all articles
+        //$articles = DB::table('articles')->get();
+        
+        
+        return view('index');
+	}
+	/**
+	 * Show the application actualites to the user.
+	 *
+	 * @return Response
+	 */
+	public function actualites()
+	{	
+
+        //Get all articles
         $articles = DB::table('articles')->get();
         
         
-        return view('index', compact('articles'));
+        return view('actualites', compact('articles'));
 	}
 
 }
