@@ -72,9 +72,13 @@ class BlogController extends Controller {
 	 * @return Response
 	 */
 	public function showArticlesWithtag($tag)
-	{
-		$articles = Tag::find(1)->articles;
-		dd($tag);
+	{	
+		$tag =str_replace('-', ' ',  $tag );
+
+		$tagId = Tag::where('name','=',$tag)->get();
+	
+		$articles = Tag::findOrFail($tagId[0]->id)->articles()->get();
+			
         if(empty($articles))
             return view('errors.404');
         else

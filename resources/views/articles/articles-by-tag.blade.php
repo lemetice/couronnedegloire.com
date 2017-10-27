@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url(../images/slide1.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Tag: {{ tag }}</h1>
+          <h1 style="color:black;">Tag: {{ $tag }}</h1>
         </div>
       </div>
     </div>
@@ -89,11 +89,7 @@
                 <h3>Les Tags</h3>
               </div>
               <div class="tag-cloud"> 
-               @unless(count($tags) == 0)
-                  @foreach($tags as $tag) 
-                    <a href="{{ url('blog/'. preg_replace('/\s+/', '-', $tag )) }}"> {{ $tag }}</a> 
-                  @endforeach
-              @endunless    
+                   
             </div>
           </div>
         </div>

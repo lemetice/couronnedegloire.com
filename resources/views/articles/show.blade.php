@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url(../images/slide1.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>{{ $article[0]->title }}</h1>
+          <h1 style="color:black;">{{ $article[0]->title }}</h1>
         </div>
       </div>
     </div>

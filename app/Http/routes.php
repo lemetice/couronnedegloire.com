@@ -65,10 +65,9 @@ Route::get('blog/{$id}', function()
     return view('articles.show');
 });
 
-Route::get('/blog/tag/{id}', function () {
-    
-    return view('articles.articles-by-tag');
-});
+
+Route::get('/tag/{id}', 'BlogController@showArticlesWithtag');
+
 
 Route::resource('blog', 'BlogController');
 
