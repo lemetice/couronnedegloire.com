@@ -60,6 +60,17 @@ Route::get('equipe', function()
     return view('equipe');
 });
 
+Route::get('blog/{$id}', function()
+{
+    return view('articles.show');
+});
+
+Route::get('/blog/tag/{id}', function () {
+    
+    return view('articles.articles-by-tag');
+});
+
+Route::resource('blog', 'BlogController');
 
 Route::get('actualites', 'WelcomeController@actualites');
 

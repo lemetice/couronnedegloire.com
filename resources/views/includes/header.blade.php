@@ -121,12 +121,12 @@
                     <li><a href="{{ url('/') }}">Gallerie</a></li>
                   </ul>
                 </li>
-                <li><a href="blog-masonry.html">Blog</a>
+                <li><a href="{{ url('blog') }}">Blog</a>
                   <ul class="dropdown">
-                    <li><a href="{{ url('/') }}">Pain du jour</a></li>
-                    <li><a href="{{ url('/') }}">Pepites du jour</a></li>
-                    <li><a href="{{ url('/') }}">repas des lundis</a></li>
-                    <li><a href="{{ url('/') }}">Témoignages</a></li>
+                    <li><a href="{{ url('blog/pain_du_jour') }}">Pain du jour</a></li>
+                    <li><a href="{{ url('blog/pepite_du_jour') }}">Pepites du jour</a></li>
+                    <li><a href="{{ url('blog/repas_des_lundis') }}">Repas des lundis</a></li>
+                    <li><a href="{{ url('blog/temoignages') }}">Témoignages</a></li>
                   </ul>
                 </li>
                 <li><a href="{{ url('/contact') }}">Contact</a>                  
@@ -146,4 +146,6 @@
       </div>
     </div>
   </header>
+
+  @include('sessions.sessionlist')
   <!-- End Site Header --> 

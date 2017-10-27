@@ -53,4 +53,19 @@ class WelcomeController extends Controller {
         return view('actualites', compact('articles'));
 	}
 
+	/**
+	 * Show all articles on blog page.
+	 *
+	 * @return Response
+	 */
+	public function blog()
+	{	
+
+        //Get all articles
+        $articles = DB::table('articles')->get();
+        
+        
+        return view('blog', compact('articles'));
+	}
+
 }

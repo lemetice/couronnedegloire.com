@@ -63,18 +63,25 @@ class HomeController extends Controller {
 		$carbon = Carbon::now('Europe/paris');
 		$dt = $carbon->format('Y-m-d H:i:s');
         //dd($request);
-        //Save the candidate info
+       // $article = Auth::user()->articles()->create($request->all());
+        $type = 1;
+        
+        /*Save the article info  dd($article);*/
         $article = new Article(array(
                     'title'   => $request->get('title'),
                     'author_id' => $request->user()->id,
-                    'type' => $request->get('type'),
+                    'type' => $type,
                     'slug' => str_slug($request->get('title')), 
-                    'body' => $request->get('desc'),                    
+                    'body' => $request->get('article'),                    
                     'published_at' => $dt,
                     'created_at' => $dt,
                     'updated_at' => $dt
                     ));
+        
         $article->save();
+
+        $tagIds = $request->input('tag');
+        $article->tags()->attach($tagIds);
         
         /*upload  to application*/
         if (Input::hasFile('media_url'))
@@ -89,9 +96,9 @@ class HomeController extends Controller {
                 $article->media_url  = 'uploads/article'.$imageName;
                 $article->save();
         	}    
-        if($imageName == 'failed'){
-            Session::flash('error_message', "Votre image doit avoir une taille d'au moins 120x136 pixel");
-        }else{
+        /*if($imageName == 'failed'){
+            Session::flash('error_message', "Votre image doit avoir une taille d'au moins 120x136 pixel");}*/
+        else{
             //Flash the user on action executed
             Session::flash('success_message', 'Article ajouté avec succès!');
         }

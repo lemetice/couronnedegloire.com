@@ -20,7 +20,7 @@
 						<div class="tabs">
 							<ul class="nav nav-tabs">
 								<li class="active"> <a data-toggle="tab" href="#sampletab1">Articles</a> </li>
-								<li> <a data-toggle="tab" href="#sampletab2"> Sample Tab #2 </a> </li>
+								<li> <a data-toggle="tab" href="#sampletab2"> Blog </a> </li>
 								<li> <a data-toggle="tab" href="#sampletab3"> Autre contenue </a> </li>
 							</ul>
 			              <div class="tab-content">
@@ -87,7 +87,7 @@
 			                  </div>
 			                </div>
 			                <div id="sampletab2" class="tab-pane">
-			                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit tortor, dictum in gravida nec, aliquet non lorem. Donec vestibulum justo a diam ultricies pellentesque.</p>
+			                  <p>Les articles</p>
 			                </div>
 			                <div id="sampletab3" class="tab-pane">
 			                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit tortor, dictum in gravida nec, aliquet non lorem. Donec vestibulum justo a diam ultricies pellentesque. Quisque mattis diam vel lacus tincidunt elementum. Sed vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend ante lobortis id. In viverra ipsum ac eros tristique dignissim. Donec aliquam velit vitae mi dictum. </p>

@@ -25,6 +25,17 @@
 	<!-- Color Style -->
 	<link class="alt" href="{{ asset('/colors/color1.css') }}" rel="stylesheet" type="text/css">
 	<link href="{{ asset('/style-switcher/css/style-switcher.css') }}" rel="stylesheet" type="text/css">
+	<!-- TINYMCE What you see is what you get-->
+	  <script src="{{ asset('/js/tinymce/tinymce.min.js') }}"></script>
+	  <script>tinymce.init({ 
+	  	selector:'textarea',
+	  	plugins: "preview",
+  		//toolbar: "preview",
+	  	statusbar: false,
+	  	menubar: false,
+	  	height: 300
+	  	 });
+	  </script>
 	<!-- SCRIPTS
 	  ================================================== -->
 	<script src="{{ asset('/js/modernizr.js') }}"></script><!-- Modernizr -->

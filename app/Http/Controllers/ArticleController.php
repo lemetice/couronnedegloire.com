@@ -54,9 +54,9 @@ class ArticleController extends Controller {
 	{
 		//get the current date and time
 		
-		$carbon = Carbon::now('Africa/douala');
+		$carbon = Carbon::now('Europe/paris');
 		$dt = $carbon->format('Y-m-d H:i:s');
-        
+
         //Save the candidate info
         $article = new Article(array(
                     'title'   => $request->get('title'),
