@@ -22,8 +22,11 @@ class BlogController extends Controller {
 	public function index()
 	{	
 		$tags = Tag::lists('name', 'id');
-		$articles = DB::table('articles')->get();
-		//dd(Article::first());
+
+		$articles = DB::table('articles')->orderBy('created_at', 'desc')->paginate(10);
+		
+		$articles->setPath('blog');
+
 		return view('blog', compact('tags', 'articles'));
 	}
 
@@ -34,6 +37,8 @@ class BlogController extends Controller {
 	 */
 	public function create()
 	{	
+
+
 		$tags = Tag::lists('name', 'id');
 		
 		return view('articles.create', compact('tags'));

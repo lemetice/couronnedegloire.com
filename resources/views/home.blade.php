@@ -6,6 +6,7 @@
 <div class="spacer-20"></div>
 <div class="container">
 	<div class="row">
+  	@include('sessions.sessionlist')
 		<div class="col-md-10 col-md-offset-1">
 			<div class="spacer-20"></div>
 			<div class="panel panel-default">
@@ -19,9 +20,9 @@
           				<div class="col-md-12">
 						<div class="tabs">
 							<ul class="nav nav-tabs">
-								<li class="active"> <a data-toggle="tab" href="#sampletab1">Articles</a> </li>
-								<li> <a data-toggle="tab" href="#sampletab2"> Blog </a> </li>
-								<li> <a data-toggle="tab" href="#sampletab3"> Autre contenue </a> </li>
+								<li class="active"> <a data-toggle="tab" href="#sampletab1">Evangelisation</a> </li>
+								<li> <a data-toggle="tab" href="#sampletab2"> Articles </a> </li>
+								<li> <a data-toggle="tab" href="#sampletab3"> Actualités </a> </li>
 							</ul>
 			              <div class="tab-content">
 			                <div id="sampletab1" class="tab-pane active">
@@ -59,9 +60,10 @@
 							                  <div class="progress">
 							                    <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
 							                  </div>
-							                  <p style="height:60px;
-											    line-height:20px; /* Height / no. of lines to display */
-											    overflow:hidden;" >{{ $article->body  }}</p>
+							                  <p>
+							                  {{ substr(strip_tags($article->body),0,300) }}
+							                  {{ strlen($article->body) > 300 ? "...": "" }}
+							                  </p>
 							                </div>
 							              </div>
 							            </article>
@@ -87,10 +89,13 @@
 			                  </div>
 			                </div>
 			                <div id="sampletab2" class="tab-pane">
-			                  <p>Les articles</p>
+								<div class="spacer-20"></div>
+								<div class="spacer-20"></div>
+								<div class="spacer-20"></div>
+			                  	<a  href="{{ url('/blog/create') }}" class="btn btn-primary btn-sm"> Ajouter un article </a> 
 			                </div>
 			                <div id="sampletab3" class="tab-pane">
-			                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit tortor, dictum in gravida nec, aliquet non lorem. Donec vestibulum justo a diam ultricies pellentesque. Quisque mattis diam vel lacus tincidunt elementum. Sed vitae adipiscing turpis. Aenean ligula nibh, molestie id viverra a, dapibus at dolor. In iaculis viverra neque, ac eleifend ante lobortis id. In viverra ipsum ac eros tristique dignissim. Donec aliquam velit vitae mi dictum. </p>
+			                  <a href="{{ url('/blog/create') }}" class="btn btn-primary btn-sm"> Ajouter une actualité </a> 
 			                </div>
 			              </div>
 			            </div>
