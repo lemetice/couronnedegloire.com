@@ -5,7 +5,7 @@
   <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
     <ul class="slides">
       <li class=" parallax" style="background-image:url(images/slide1.jpg);"></li>
-      <li class="parallax" style="background-image:url(images/slide2.jpg);"></li>
+      <li class="parallax" style="background-image:url(images/slide2.jpeg);"></li>
     </ul>
   </div>
   <!-- End Hero Slider --> 
@@ -127,7 +127,7 @@
           <div class="featured-blocks clearfix">
             <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/equipe') }}" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Notre Équipe</strong> <span class="more">read more</span> </a> </div>
             <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/actualites') }}" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>Actualités</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/sermons') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Sermons Archive</strong> <span class="more">read more</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/blog') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Blog</strong> <span class="more">read more</span> </a> </div>
           </div>
           <!-- End Featured Blocks --> 
         </div>

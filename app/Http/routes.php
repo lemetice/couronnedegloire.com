@@ -35,7 +35,7 @@ Route::get('bilan', function()
     return view('bilan');
 });
 
-Route::get('chartre', function()
+Route::get('charte', function()
 {
     return view('chartre');
 });
@@ -58,6 +58,11 @@ Route::get('mentions-legales', function()
 Route::get('equipe', function()
 {
     return view('equipe');
+});
+
+Route::get('vision', function()
+{
+    return view('vision');
 });
 
 Route::get('blog/{$id}', function()

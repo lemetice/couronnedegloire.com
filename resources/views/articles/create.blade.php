@@ -14,16 +14,16 @@
     </div>
   </div>
   <!-- End Nav Backed Header --> 
-  <!-- Start Page Header 
+  <!-- Start Page Header -->
   <div class="page-header">
     <div class="container" style="color: black;">
       <div class="row">
         <div class="col-md-12" >
-          <h1>Crée un article</h1>
+          <h1 style="color:black;">Crée un article pour le blog</h1>
         </div>
       </div>
     </div>
-  </div>-->
+  </div>
 
   <!-- Start Content -->
   <div class="main" role="main">

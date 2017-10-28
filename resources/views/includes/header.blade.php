@@ -59,14 +59,14 @@
                 <li><a href=" {{ url('/about') }}">Nous connaitre</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/about') }}">Profil</a></li>
-                    <li><a href="{{ url('/about') }}">vision</a></li>
-                    <li><a href="{{ url('/auth/login') }}">Membre</a></li>
-                    <li><a href="{{ url('/equipe') }}">Équipe</a></li>
+                    <li><a href="{{ url('/vision') }}">vision</a></li>
                     <li><a href="{{ url('/bilan') }}">Bilan</a></li>
-                    <li><a href="{{ url('/chartre') }}">Chartre</a></li>
+                    <li><a href="{{ url('/equipe') }}">Équipe</a></li>
+                    <li><a href="{{ url('/auth/login') }}">Membre</a></li>
+                    <li><a href="{{ url('/charte') }}">Charte</a></li>
                   </ul>
                 </li>
-                <li><a href=" {{ url('/about') }}">Nos Activités</a>
+                <li><a href=" {{ url('/culte') }}">Nos Activités</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/culte') }}">Culte</a></li>
                     <li><a href="{{ url('/evangelisation') }}">Evangelisation</a></li>
@@ -123,9 +123,9 @@
                 </li>
                 <li><a href="{{ url('blog') }}">Blog</a>
                   <ul class="dropdown">
-                    <li><a href="{{ url('blog/pain_du_jour') }}">Pain du jour</a></li>
-                    <li><a href="{{ url('blog/pepite_du_jour') }}">Pepites du jour</a></li>
-                    <li><a href="{{ url('blog/repas_des_lundis') }}">Repas des lundis</a></li>
+                    <li><a href="{{ url('blog/pain-du-jour') }}">Pain du jour</a></li>
+                    <li><a href="{{ url('blog/pepite-du-jour') }}">Pepites du jour</a></li>
+                    <li><a href="{{ url('blog/repas-des-lundis') }}">Repas des lundis</a></li>
                     <li><a href="{{ url('blog/temoignages') }}">Témoignages</a></li>
                   </ul>
                 </li>
@@ -147,5 +147,4 @@
     </div>
   </header>
 
-  @include('sessions.sessionlist')
   <!-- End Site Header --> 

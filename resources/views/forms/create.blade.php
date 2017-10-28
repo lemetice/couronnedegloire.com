@@ -39,7 +39,7 @@
         </div>
         <div class="row">
             <div class="col-md-12">
-            <textarea rows="3" cols="5" class="form-control" name="desc" placeholder="Description" required></textarea>
+            <textarea name="article" ></textarea>
             </div>
         </div>
 </div>
