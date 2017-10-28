@@ -8,6 +8,7 @@ use App\Libraries\Utility;
 use DB;
 use Input;
 use Session;
+use Purifier;
 use App\Article;
 use Carbon\Carbon;
 
@@ -62,8 +63,14 @@ class HomeController extends Controller {
 		
 		$carbon = Carbon::now('Europe/paris');
 		$dt = $carbon->format('Y-m-d H:i:s');
-        //dd($request);
-       // $article = Auth::user()->articles()->create($request->all());
+
+       /* $this->validate($request, array(
+            'title'  => 'required',
+            'tag'   => 'required',
+            'body'   => 'required'
+            //'photos'       => 'required|image|mimes:jpeg,png|min:1|max:1024'
+            ));*/
+
         $type = 1;
         
         /*Save the article info  dd($article);*/
@@ -72,7 +79,7 @@ class HomeController extends Controller {
                     'author_id' => $request->user()->id,
                     'type' => $type,
                     'slug' => str_slug($request->get('title')), 
-                    'body' => $request->get('article'),                    
+                    'body' => $request->get('article'),//Purifier::clean($request->get('article')),                    
                     'published_at' => $dt,
                     'created_at' => $dt,
                     'updated_at' => $dt
@@ -160,7 +167,7 @@ class HomeController extends Controller {
                 $article[0]->media_url = 'uploads/article'.$imageName;
                 $article[0]->title = $request->input('title');
                 $article[0]->slug  = str_slug($request->input('title'));
-                $article[0]->body  = $request->input('body');
+                $article[0]->body  = Purifier::clean($request->input('body'));
                 $article[0]->updated_at = $dt;                
 
                 DB::table('articles')->update([
