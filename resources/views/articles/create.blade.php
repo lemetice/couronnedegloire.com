@@ -56,6 +56,11 @@
                       {!! Form::label('tags', 'Tags:') !!}
                       {!! Form::select('tag[]', $tags, null, ['multiple' => true, 'class' => 'form-control margin', 'required']) !!}
                     </div>
+                    <div class="col-md-12">
+
+                      {!! Form::label('media_url', 'Upload Featured Image:') !!}
+                      {!! Form::file('media_url', ['class' => 'form-control margin']) !!}
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">

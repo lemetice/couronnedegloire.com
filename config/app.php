@@ -146,6 +146,7 @@ return [
 		'App\Providers\ConfigServiceProvider',
 		'App\Providers\EventServiceProvider',
 		'App\Providers\RouteServiceProvider',
+		'Intervention\Image\ImageServiceProvider',
 
 	],
 
@@ -197,6 +198,7 @@ return [
 		'Form' 		=> 'Collective\Html\FormFacade',
         'Html' 		=> 'Collective\Html\HtmlFacade',
         'Purifier' => Mews\Purifier\Facades\Purifier::class,
+        'Image' => 'Intervention\Image\Facades\Image',
 
 	],
 

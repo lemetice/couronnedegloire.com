@@ -7,6 +7,7 @@ use App\Libraries\Utility;
 
 use DB;
 use Input;
+use Image;
 use Session;
 use Purifier;
 use App\Article;
@@ -84,34 +85,23 @@ class HomeController extends Controller {
                     'created_at' => $dt,
                     'updated_at' => $dt
                     ));
-        
+
+        /*Save image*/
+        if (Input::hasFile('media_url')){
+            $image    = $request->file('media_url');
+            $filename = time().'.'.$image->getClientOriginalExtension();
+            $location = public_path('uploads/'.$filename);
+            Image::make($image)->resize(800,400)->save($location);
+            $article->media_url = 'uploads/'.$filename;
+         }
+
         $article->save();
 
         $tagIds = $request->input('tag');
         $article->tags()->attach($tagIds);
-        
-        /*upload  to application*/
-        if (Input::hasFile('media_url'))
-        	{
-        	    
-                $file                  = $request->file('media_url'); // here is the uploaded file
-                $destFolderName        = '';            // the name of the folder you want to keep your uploaded pics
-                $updateMode            = 0;
-                $tableName             = 'articles';               // the name of database where the data are coming from
-                $objectId              = $article->id;             // here the id of the new object you just saved
-                $imageName             = Utility::handleImages($file, $destFolderName, $objectId, $tableName, $updateMode);
-                $article->media_url  = 'uploads/article'.$imageName;
-                $article->save();
-        	}    
-        /*if($imageName == 'failed'){
-            Session::flash('error_message', "Votre image doit avoir une taille d'au moins 120x136 pixel");}*/
-        else{
-            //Flash the user on action executed
-            Session::flash('success_message', 'Article ajouté avec succès!');
-        }
-        
+                     
 
-        //Session::flash('success_message', 'Article créer avec succès!');
+        Session::flash('success_message', 'Article créer avec succès!');
         return redirect('home');
 	}
 
