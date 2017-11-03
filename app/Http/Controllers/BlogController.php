@@ -78,16 +78,24 @@ class BlogController extends Controller {
 	 */
 	public function showArticlesWithtag($tag)
 	{	
+		$tag_url = $tag;
 		$tag =str_replace('-', ' ',  $tag );
 
 		$tagId = Tag::where('name','=',$tag)->get();
-	
-		$articles = Tag::findOrFail($tagId[0]->id)->articles()->get();
-			
-        if(empty($articles))
+		//dd(count($tagId));
+		if(count($tagId) == 0)
             return view('errors.404');
-        else
-        return view('articles.articles-by-tag', compact('articles','tag'));
+        else{
+			$articles = DB::table('articles')
+							->join('article_tag','articles.id','=', 'article_id')
+							->where('tag_id', '=', $tagId[0]->id)
+							->select('title', 'body', 'articles.published_at', 'media_url','slug')
+							->paginate(10);		
+			
+			$articles->setPath($tag_url);
+	        
+	        return view('articles.articles-by-tag', compact('articles','tag'));
+	    }
 	}
 
 

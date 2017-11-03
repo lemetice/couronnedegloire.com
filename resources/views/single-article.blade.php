@@ -82,17 +82,7 @@
                 <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
                 </span> </div>
             </div>
-            <div class="widget sidebar-widget">
-              <div class="sidebar-widget-title">
-                <h3>Post Categories</h3>
-              </div>
-              <ul>
-                <li><a href="#">Faith</a> (10)</li>
-                <li><a href="#">Missions</a> (12)</li>
-                <li><a href="#">Salvation</a> (34)</li>
-                <li><a href="#">Worship</a> (14)</li>
-              </ul>
-            </div>
+            
             <div class="widget sidebar-widget">
               <div class="sidebar-widget-title">
                 <h3>Post Tags</h3>

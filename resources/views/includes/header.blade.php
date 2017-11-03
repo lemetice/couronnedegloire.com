@@ -123,10 +123,10 @@
                 </li>
                 <li><a href="{{ url('blog') }}">Blog</a>
                   <ul class="dropdown">
-                    <li><a href="{{ url('blog/pain-du-jour') }}">Pain du jour</a></li>
-                    <li><a href="{{ url('blog/pepite-du-jour') }}">Pepites du jour</a></li>
-                    <li><a href="{{ url('blog/repas-des-lundis') }}">Repas des lundis</a></li>
-                    <li><a href="{{ url('blog/temoignages') }}">Témoignages</a></li>
+                    <li><a href="{{ url('blog/tag/pain-du-ciel') }}">Pain du ciel</a></li>
+                    <li><a href="{{ url('blog/tag/pepite-du-jour') }}">Pepites du jour</a></li>
+                    <li><a href="{{ url('blog/tag/repas-du-lundi') }}">Repas des lundis</a></li>
+                    <li><a href="{{ url('blog/tag/temoignage') }}">Témoignages</a></li>
                   </ul>
                 </li>
                 <li><a href="{{ url('/contact') }}">Contact</a>                  

@@ -71,7 +71,7 @@ Route::get('blog/{$id}', function()
 });
 
 
-Route::get('/tag/{id}', 'BlogController@showArticlesWithtag');
+Route::get('blog/tag/{tag}', 'BlogController@showArticlesWithtag');
 
 
 Route::resource('blog', 'BlogController');

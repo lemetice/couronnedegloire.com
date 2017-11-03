@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(../images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url(../../images/slide1.jpg);">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -62,6 +62,10 @@
                                 <div class="progress">
                                   <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
                                 </div>
+                                <p>
+                                  {{ substr(strip_tags($article->body),0,300) }}
+                                  {{ strlen($article->body) > 300 ? "...": "" }}
+                                </p>
                               </div>
                             </div>
                           </article>
@@ -70,15 +74,7 @@
                     </div> 
             
             <center>
-              <ul class="pagination">
-                <li><a href="#"><i class="fa fa-chevron-left"></i></a></li>
-                <li class="active"><a href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#">3</a></li>
-                <li><a href="#">4</a></li>
-                <li><a href="#">5</a></li>
-                <li><a href="#"><i class="fa fa-chevron-right"></i></a></li>
-              </ul>
+              <?php echo $articles->render(); ?>
             </center>
           </div>
           <!-- Start Sidebar -->
@@ -89,7 +85,7 @@
                 <h3>Les Tags</h3>
               </div>
               <div class="tag-cloud"> 
-                   
+                   {{ $tag }}
             </div>
           </div>
         </div>

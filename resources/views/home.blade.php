@@ -1,6 +1,8 @@
 @extends('app')
 
 @section('content')
+<div class="nav-backed-header parallax" style="background-image:url(images/slide2.jpg);">
+  
 <div class="spacer-20"></div>
 <div class="spacer-20"></div>
 <div class="spacer-20"></div>
@@ -20,13 +22,13 @@
           				<div class="col-md-12">
 						<div class="tabs">
 							<ul class="nav nav-tabs">
-								<li class="active"> <a data-toggle="tab" href="#sampletab1">Evangelisation</a> </li>
-								<li> <a data-toggle="tab" href="#sampletab2"> Articles </a> </li>
+								<li class="active"> <a data-toggle="tab" href="#sampletab1">Articles</a> </li>
+								<li> <a data-toggle="tab" href="#sampletab2"> Evangelisation </a> </li>
 								<li> <a data-toggle="tab" href="#sampletab3"> Actualités </a> </li>
 							</ul>
 			              <div class="tab-content">
 			                <div id="sampletab1" class="tab-pane active">
-			                  	<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add article</button><br>
+			                  	<a  href="{{ url('/blog/create') }}" class="btn btn-primary btn-sm"> Ajouter un article </a> <div class="spacer-20"></div>
 			                  <br>
 
 			                  <!-- Liste d'articles-->
@@ -52,8 +54,7 @@
 							                  <h3><a href="{{url('/home/'.$article->slug)}}">{{ $article->title  }}</a></h3>
 							                  <span class="post-meta meta-data">
 							                  	<span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
-							                    <span><i class="fa fa-archive"></i> <a href="#">Education</a>, <a href="#">Africa</a></span>
-							                    <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
+							                    <span><i class="fa fa-edit"></i> <a href="{{url('/home/'.$article->slug.'/edit')}}" class="btn-warning btn-sm">Modifier</a>
 							                  </span>
 							                  <div class="progress-label">			   
 							                  </div>
@@ -71,6 +72,13 @@
 						            </div>
 						        </div>    
 
+			                </div>
+			                <div id="sampletab2" class="tab-pane">
+								<div class="spacer-20"></div>
+								<div class="spacer-20"></div>
+								<div class="spacer-20"></div>
+			                  	<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">Add article</button><br>
+
 			                  <div class="col-md-4">
 								<!--create form modal-->
 								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -87,12 +95,6 @@
 					              </div>
 					            </div>
 			                  </div>
-			                </div>
-			                <div id="sampletab2" class="tab-pane">
-								<div class="spacer-20"></div>
-								<div class="spacer-20"></div>
-								<div class="spacer-20"></div>
-			                  	<a  href="{{ url('/blog/create') }}" class="btn btn-primary btn-sm"> Ajouter un article </a> 
 			                </div>
 			                <div id="sampletab3" class="tab-pane">
 			                  <a href="{{ url('/blog/create') }}" class="btn btn-primary btn-sm"> Ajouter une actualité </a> 

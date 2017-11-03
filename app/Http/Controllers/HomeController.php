@@ -48,7 +48,7 @@ class HomeController extends Controller {
         $auth_user = $request->user();
         
         //Get all articles
-        $articles = DB::table('articles')->get();
+        $articles = DB::table('articles')->orderBy('created_at', 'desc')->get();
         //$articles->setPath('home');
         
         return view('home', compact('articles', 'auth_user'));
@@ -135,10 +135,11 @@ class HomeController extends Controller {
     {   
 
         $article = DB::table('articles')->where('slug','=',$id)->get();
-        if(empty($article))
+        //dd($article);
+        if(count($article) == 0)
             return view('errors.404');
         else
-        return view('articles.edit', compact($article[0]));
+        return view('articles.edit', compact($article));
     }
 
 	/**
