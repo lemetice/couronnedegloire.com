@@ -9,6 +9,7 @@ use DB;
 use Input;
 use Image;
 use Session;
+use Storage;
 use Purifier;
 use App\Article;
 use Carbon\Carbon;
@@ -123,6 +124,23 @@ class HomeController extends Controller {
 
     }
 
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function edit($id)
+    {   
+
+        $article = DB::table('articles')->where('slug','=',$id)->get();
+        if(empty($article))
+            return view('errors.404');
+        else
+        return view('articles.edit', compact($article[0]));
+    }
+
 	/**
 	 * Update the specified candidate in storage.
 	 *
@@ -137,57 +155,37 @@ class HomeController extends Controller {
         
         $article = DB::table('articles')->where('slug','=',$id)->get();
         
-        /*upload & resize image to application*/
-        if (Input::hasFile('media_url'))
-        	{
-                $file                  = $request->file('media_url'); // here is the uploaded file
-                $destFolderName        = '';            // the name of the folder you want to keep your uploaded pics
-                $updateMode            = 1;
-                $tableName             = 'articles';               // the name of database where the data are coming from
-                $objectId              = $article[0]->id;             // here the id of the new object you just saved
-                $imageName             = Utility::handleImages($file, $destFolderName, $objectId, $tableName, $updateMode); 
-                
-                if($imageName == $article[0]->media_url){
-                    
-                    $article[0]->media_url = $article[0]->media_url;
-                    Session::flash('error_message', "Votre image doit avoir une taille d'au moins 120x136 pixel");
-                    return redirect('home/');
-                }
-                                
-                $article[0]->media_url = 'uploads/article'.$imageName;
-                $article[0]->title = $request->input('title');
-                $article[0]->slug  = str_slug($request->input('title'));
-                $article[0]->body  = Purifier::clean($request->input('body'));
-                $article[0]->updated_at = $dt;                
+        /*Updation*/
+        if (Input::hasFile('media_url')){
+            $image    = $request->file('media_url');
+            $filename = time().'.'.$image->getClientOriginalExtension();
+            $location = public_path('uploads/'.$filename);
+            Image::make($image)->resize(800,400)->save($location);
+            $oldFilename = $article[0]->media_url;
 
-                DB::table('articles')->update([
-                    'title' => $article[0]->title,
-                    'slug' => $article[0]->slug,
-                    'body' => $article[0]->body,
-                    'updated_at' => $article[0]->updated_at,
-                    'media_url'=> $article[0]->media_url
-                    ]);
-                /*Flash the user on action executed*/
-                $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
-                return redirect('home/');
-            }else{
-                //$article->media_url = 'uploads/article'.$imageName;
-                $article[0]->title = $request->get('title');
-                $article[0]->slug = str_slug($request->get('title'));
-                $article[0]->body = $request->get('body');
-                $article[0]->updated_at = $dt;
+            //Update media_url in Database
+            $article[0]->media_url = 'uploads/'.$filename;
 
-                DB::table('articles')->update([
-                    'title' => $article[0]->title,
-                    'slug' => $article[0]->slug,
-                    'body' => $article[0]->body,
-                    'updated_at' => $article[0]->updated_at]);
+            //Delete the old image
+            Storage::delete($oldFilename);
+         }
+            $article[0]->title = $request->input('title');
+            $article[0]->slug  = str_slug($request->input('title'));
+            $article[0]->body  = Purifier::clean($request->input('body'));
+            $article[0]->updated_at = $dt;                
 
-                /*Flash the user on action executed*/
-                $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
-                return redirect('home/');
-                                
-            }  
-	}
+            DB::table('articles')->update([
+                'title' => $article[0]->title,
+                'slug' => $article[0]->slug,
+                'body' => $article[0]->body,
+                'updated_at' => $article[0]->updated_at,
+                'media_url'=> $article[0]->media_url
+                ]);
+
+            /*Flash the user on action executed*/
+            $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
+            return redirect('home/');
+    }
+        
 
 }

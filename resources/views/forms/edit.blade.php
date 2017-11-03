@@ -2,7 +2,7 @@
 <div class="modal-body">
     
     <!-- Modal content-->
-        {!! Form::model($article[0], 
+        {!! Form::model($article, 
         ['method'    => 'PATCH', 
         'route' => ['home.update', $article[0]->slug], 
         'class'      => 'form', 
