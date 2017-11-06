@@ -44,16 +44,11 @@
                 <div class="row">
                     <div class="col-md-6">
                         <label>Titre</label> 
-                        <input type="text" name="title" class="form-control" placeholder="Titre (Required)" required="required">
+                        {!! Form::text('title', null, ['placeholder'=>'title', 'class' => 'form-control',  'required']) !!}
 
                         <label>Date de publication</label> 
                         <input type="date" name="published_at" class="form-control" >
                     
-                    </div>
-                    <div class="col-md-6">
-
-                      {!! Form::label('tags', 'Tags:') !!}
-                      {!! Form::select('tag[]', $tags, null, ['multiple' => true, 'class' => 'form-control margin', 'required']) !!}
                     </div>
                     <div class="col-md-12">
 
@@ -63,7 +58,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                    <textarea id="body" name="article"></textarea>
+                    {!! Form::textarea('body', null, ['placeholder'=>'Description', 'class' => 'form-control', 'name' => 'article']) !!}
                     </div>
                 </div>
                 <div class="spacer-20"></div>

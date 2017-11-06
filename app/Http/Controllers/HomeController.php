@@ -135,11 +135,13 @@ class HomeController extends Controller {
     {   
 
         $article = DB::table('articles')->where('slug','=',$id)->get();
-        //dd($article);
-        if(count($article) == 0)
+
+        //$tags = Tag::Join()->where('article','=',$article[0]->id)->get();
+        
+        if(!isset($article) )
             return view('errors.404');
         else
-        return view('articles.edit', compact($article));
+        return view('articles.edit', compact('article'));
     }
 
 	/**
@@ -162,16 +164,16 @@ class HomeController extends Controller {
             $filename = time().'.'.$image->getClientOriginalExtension();
             $location = public_path('uploads/'.$filename);
             Image::make($image)->resize(800,400)->save($location);
-            $oldFilename = $article[0]->media_url;
+            $oldFilename = public_path()."/".$article[0]->media_url;
 
             //Update media_url in Database
             $article[0]->media_url = 'uploads/'.$filename;
 
             //Delete the old image
-            Storage::delete($oldFilename);
+            //Storage::delete($oldFilename);
          }
             $article[0]->title = $request->input('title');
-            $article[0]->slug  = str_slug($request->input('title'));
+            $article[0]->slug  = time().'-'.str_slug($request->input('title'));
             $article[0]->body  = Purifier::clean($request->input('body'));
             $article[0]->updated_at = $dt;                
 
