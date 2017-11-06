@@ -34,7 +34,7 @@
           <div class="col-md-12">
              
             <div class="col-md-12 col-sm-12 widget footer-widget">
-              <p class="" style="font-size: 16px;">
+              <p class="" style="font-size: 18px;">
               La vision de notre ministère consiste à emmené le plus grand nombre d'âme à Jésus Christ. Alors Pour atteindre un tel objectif. Le seigneur dans les cieux m'a offert un trousseau de clés multicolore pour La pèche d'âme. Cette vision comporte sept grands  Axes à savoir :              
               <br><br>
             </p>

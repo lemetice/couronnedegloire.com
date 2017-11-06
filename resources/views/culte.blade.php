@@ -55,5 +55,17 @@
       </div>
     </div>
   </div>
+  Nous nous retrouvons tous les samedis à 14h00 au 73 rue de la Briche 93200 Saint-Denis RER D arrêt gare St Denis 
+T8 arrêt gare Paul Eluard, aller 35 au 2ème étage
+- de 14h00 à 14h30 : Intercession
+- de 14h30 à 15h30 : Adorations et Louanges
+- de 15h30 à 16h30 : Prédication
+- de16h30 à 17h15 : Cours de baptême
+- de 17h15 à 17h30 : les offrandes
+- de 17h30 à 18h00 : Entretien avec la Prophétesse des Nations, JANGO Sylvie-Sara
+18h00 : Fin du culte
+(Vente des livres sur place)
+Que la grâce du Seigneur soit avec vous !!
+
 
 @endsection

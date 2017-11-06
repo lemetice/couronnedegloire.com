@@ -140,9 +140,9 @@
       <div class="row">
         <div class="col-md-3 col-sm-3">
           <h4>Visitez nos ressources</h4>
-          <a href="{{ url('/gallerie') }}" class="btn btn-default btn-lg">Plus</a> </div>
+          <a href="{{ url('/evangelisation') }}" class="btn btn-default btn-lg">Plus</a> </div>
         <div class="col-md-3 col-sm-3 post format-image"> <a href="images/gallery-img1.jpg" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img1.jpg" alt=""> </a> </div>
-        <div class="col-md-3 col-sm-3 post format-video"> <a href="http://youtu.be/NEFfnbQlGo8" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img2.jpg" alt=""> </a> </div>
+        <div class="col-md-3 col-sm-3 post format-video"> <a href="https://youtu.be/vtnhRY0AuR0" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img2.jpg" alt=""> </a> </div>
         <div class="col-md-3 col-sm-3 post format-image"> <a href="images/gallery-img3.jpg" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img3.jpg" alt=""> </a> </div>
       </div>
     </div>
