@@ -32,30 +32,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <p>
-              Moi Jésus-Christ, je t'envoie partout dans le monde annoncer le Royaume de Dieu et proclamer à toutes les nations que mon retour est proche. Rien, ni personne ne pourra plus venir se mettre en travers de la tâche qui t'est confiée.<br><br>
-              
-
-              Voici, je mets Mes paroles dans ta bouche.<br><br>
-
-               
-
-              Voici : Tout comme Mon Père m'a envoyé, Je t'envoie et Je te donne autorité afin que tu ailles vers ces nations, ces peuples, ces royaumes et ces tribus qui s'expriment dans leurs langues et leurs langages.<br><br>
-
-               
-
-              <blockquote>
-                <p>Reçois pour cela Mon onction, veille à ce que Ma Parole s'accomplisse Mon enfant. Ne crains rien, car je te mandate. Sache que, il est de toi comme il fût du Prophète Jérémie pour lequel j'ai déclaré : "Avant de te former dans le ventre de ta mère, je te connaissais, et avant que tu naîsses, je t'avais consacré, je t'avais désigné prophète pour les nations" </p> 
-                 <cite style="color: black">Jérémie 1 : 5</cite>
-              </blockquote> <br><br>
-
-               <blockquote>
-                <p>
-                     Souviens-toi que Je veille à ce que ma Parole s'accomplisse 
-                   </p> 
-                - <cite style="color: black"> Jérémie 1 : 12 </cite>
-              </blockquote>
-            </p>                       
+             
+            <div class="col-md-12 col-sm-12 widget footer-widget">
+              <p class="" style="font-size: 16px;">
+              La vision de notre ministère consiste à emmené le plus grand nombre d'âme à Jésus Christ. Alors Pour atteindre un tel objectif. Le seigneur dans les cieux m'a offert un trousseau de clés multicolore pour La pèche d'âme. Cette vision comporte sept grands  Axes à savoir :              
+              <br><br>
+            </p>
+              <ul>
+              <li class="list-font">1- Enseigner le royaume de Dieu (Luc 17:21)</li>
+              <li class="list-font">2- Annoncé le Salut (Luc 2:5-6)</li>
+              <li class="list-font">3- Preché La repentance(Matthieu 3:8)</li>
+              <li class="list-font">4- Prêché la sanctification des vies (Acte3: 19)</li>
+            <li class="list-font">5- Les armes spirituelles du chrétien (Éphésiens 6:11-14)</li>
+              <li class="list-font">6- Les dons spirituels (1 Chorentiens 12: 5-12)</li>
+              <li class="list-font">7- Les fruits de l'esprit (Galates 5: 12)</li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>

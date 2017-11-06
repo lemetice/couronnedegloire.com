@@ -31,6 +31,12 @@
     <div id="content" class="content full">
       <div class="container">
         <div class="row">
+        <div class="col-md-12 col-sm-12 widget footer-widget">
+            <p class="" style="font-size:18px;"> 
+                La ointe de l'éternel Sara Sylvie Jango est entouré des hommes et des femmes dynamique siègeant dans un atmosphère de louange. L'évangélisation dans les rues et l'organisation des conférences est la tâche à laquelle est dévoué son équipe sans toute fois oublié les prières nocturnes            
+              <br><br>
+            </p>
+        </div>
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">

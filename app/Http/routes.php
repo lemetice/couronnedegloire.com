@@ -40,6 +40,16 @@ Route::get('charte', function()
     return view('chartre');
 });
 
+Route::get('culte', function()
+{
+    return view('culte');
+});
+
+Route::get('intercéssion', function()
+{
+    return view('intercession');
+});
+
 Route::get('les-chretiens-persecutes', function()
 {
     return view('chretiens_persecutes');
