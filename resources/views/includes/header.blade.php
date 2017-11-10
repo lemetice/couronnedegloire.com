@@ -116,9 +116,9 @@
                 <li><a href="{{ url('livre') }}">Ressources</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('livre') }}">Livre</a></li>
+                    <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li><!--
                     <li><a href="{{ url('/') }}">Audio</a></li>
-                    <li><a href="{{ url('/') }}">Youtube</a></li>
-                    <li><a href="{{ url('/') }}">Gallerie</a></li>
+                    <li><a href="{{ url('/') }}">Gallerie</a></li>-->
                   </ul>
                 </li>
                 <li><a href="{{ url('blog') }}">Blog</a>

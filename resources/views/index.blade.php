@@ -4,7 +4,7 @@
   <!-- Start Hero Slider -->
   <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
     <ul class="slides">
-      <li class=" parallax" style="background-image:url(images/slide1.jpg);"></li>
+      <li class=" parallax" style="background-image:url(images/slideme.jpg);"></li>
       <li class="parallax" style="background-image:url(images/slide2.jpeg);"></li>
     </ul>
   </div>
@@ -40,7 +40,7 @@
             <!-- Quotes Listing -->
             <div class="listing events-listing">
               <header class="listing-header">
-                <h3>Living Hope For Real People</h3>
+                <h3><strong>La table de noces est prête </strong></h3>
               </header>
               <section class="listing-cont">
                 <ul>
@@ -53,9 +53,9 @@
                     <div class="swmsc_services_icon_content">
                         <blockquote>
                           <p>
-                               La persécution est un traitement injuste envers des chrétiens en raison de leur foi.
+                               Et Jésus dit: Laissez les petits enfants, et ne les empêchez pas de venir à moi; car le royaume des cieux est pour ceux qui leur ressemblent.
                           </p> 
-                          <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
+                          <cite style="color: #C71B1B">Matthieu 19.14</cite>
                         </blockquote>
                     </div>
                     </div>
@@ -66,9 +66,9 @@
                         <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
                           <blockquote>
                           <p>
-                               La persécution est un traitement injuste envers des chrétiens en raison de leur foi.
+                              Avant que je t`eusse formé dans le ventre de ta mère, je te connaissais, et avant que tu fusses sorti de son sein, je t`avais consacré, je t`avais établi prophète des nations.
                           </p> 
-                          <cite style="color: #C71B1B">1 CORINTHIENS 14.33</cite>
+                          <cite style="color: #C71B1B"> Jérémie 1.5</cite>
                         </blockquote>
                       </div>
                     </div>
@@ -78,10 +78,9 @@
                     <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
                         <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
                           <blockquote>
-                          <p>Building Holy and Healthy Lives</h5>
-                            Vitae optio distinctio necessitatibus earum facere magni natus eaque consectetur, esse corporis dolore ostrum ullam..
+                          <p>Je vous le dis en vérité, quiconque ne recevra pas le royaume de Dieu comme un petit enfant n`y entrera point.
                           </p> 
-                          <cite style="color: #C71B1B"></cite>
+                          <cite style="color: #C71B1B">Marc 10.15</cite>
                         </blockquote>
                       </div>
                     </div>
