@@ -29,47 +29,45 @@
   <div class="main" role="main">
     <div id="content" class="content full">
       <div class="container">
-        <!-- Liste d'articles-->
-                <div class="row">
-                        <div class="col-md-12 posts-archive causes-archive">
-                           <!-- content for a particular article to loop through -->
-                           @if(count($articles) == 0)
-                         <div class="no_results bluecolor"> <h1>Aucun article trouvé</h1></div>                       
-                        @endif
-
-                        @foreach($articles as $article)
-                          <article class="post cause-item">
-                            <div class="row">
-                              <div class="col-md-4 col-sm-4">
-                                <a href="{{url('/evangelisation/'.$article->slug)}}">
-                      @if( $article->media_url === null  )                       
-                                    <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
-                                @else
-                                    <img class="img-responsive" src="{{ URL::asset($article->media_url) }}" alt="Avatar" />
-                                @endif
-                              </div>
-                              <div class="col-md-8 col-sm-8">
-                                <h3><a href="{{url('/evangelisation/'.$article->slug)}}">{{ $article->title  }}</a></h3>
-                                <span class="post-meta meta-data">
-                                  <span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
-                                  <span><i class="fa fa-archive"></i> <a href="#">Education</a>, <a href="#">Africa</a></span>
-                                  <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
-                                </span>
-                                <div class="progress-label">             
-                                </div>
-                                <div class="progress">
-                                  <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div>
-                                </div>
-                                <p style="height:60px;
-                          line-height:20px; /* Height / no. of lines to display */
-                          overflow:hidden;" >{{ $article->body  }}</p>
-                              </div>
-                            </div>
-                          </article>
-                          @endforeach
-                        </div>
-                    </div> 
-        
+        <div class="row">
+          <div class="col-md-12">
+            <ul class="grid-holder col-3 events-grid isotope" style="position: relative; overflow: hidden; height: 632.688px;">
+              <li class="grid-item post format-image isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
+                <div class="grid-item-inner"> <a href="images/gallery-img1.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/gallery-img1.jpg" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-search"></i></span></a> </div>
+              </li>
+              <li class="grid-item post format-image isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(247px, 0px);">
+                <div class="grid-item-inner"> <a href="images/gallery-img2.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/gallery-img2.jpg" alt=""> <span class="zoom" style="width: 224px; height: 126px; line-height: 126px;"><i class="fa fa-search"></i></span></a> </div>
+              </li>
+              <li class="grid-item post format-gallery isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(493px, 0px);">
+                <div class="grid-item-inner">
+                  <div class="media-box">
+                    <div class="flexslider" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="slide" data-pause="yes">
+                      
+                    <div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 800%; transition-duration: 0s; transform: translate3d(-314px, 0px, 0px);"><li class="item clone" style="width: 314px; float: left; display: block;"><a href="images/gallery-img3.jpg" data-rel="prettyPhoto[postname]"><img src="images/gallery-img3.jpg" alt=""></a></li>
+                        <li class="item flex-active-slide" style="width: 314px; float: left; display: block;"><a href="images/gallery-img2.jpg" data-rel="prettyPhoto[postname]"><img src="images/gallery-img2.jpg" alt=""></a></li>
+                        <li class="item" style="width: 314px; float: left; display: block;"><a href="images/gallery-img100.jpg" data-rel="prettyPhoto[postname]"><img src="images/gallery-img100.jpg" alt=""></a></li>
+                      <li class="item clone" style="width: 314px; float: left; display: block;"><a href="images/gallery-img101.jpeg" data-rel="prettyPhoto[postname]"><img src="images/gallery-img101.jpeg" alt=""></a></li></ul></div><ol class="flex-control-nav flex-control-paging"><li><a class="flex-active">1</a></li><li><a class="">2</a></li></ol><ul class="flex-direction-nav"><li><a class="flex-prev" href="#"></a></li><li><a class="flex-next" href="#"></a></li></ul></div>
+                  </div>
+                </div>
+              </li>
+              <li class="grid-item post format-video isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(493px, 232px);">
+                <div class="grid-item-inner"> <a href="https://www.youtube.com/watch?v=33kIPudX6ms" data-rel="prettyPhoto" class="media-box"> <img src="images/newhere.jpg" alt=""> <span class="zoom" style="width: 224px; height: 149px; line-height: 149px;"><i class="fa fa-play"></i></span></a> </div>
+              </li>
+              <li class="grid-item post format-video isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(493px, 403px);">
+                <div class="grid-item-inner"> <a href="https://www.youtube.com/watch?v=DDHWTIEK_R0" data-rel="prettyPhoto" class="media-box"> <img src="images/newhere.jpg" alt=""> <span class="zoom" style="width: 224px; height: 149px; line-height: 149px;"><i class="fa fa-play"></i></span></a> </div>
+              </li>
+              <li class="grid-item post format-video isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 461px);">
+                <div class="grid-item-inner"> <a href="https://www.youtube.com/watch?v=gpbTc10gmFo" data-rel="prettyPhoto" class="media-box"> <img src="images/newhere.jpg" alt=""> <span class="zoom" style="width: 224px; height: 149px; line-height: 149px;"><i class="fa fa-play"></i></span></a> </div>
+              </li>
+            </ul>
+            
+            <!-- Pagination 
+            <ul class="pager pull-right">
+              <li><a href="#">← Older</a></li>
+              <li><a href="#">Newer →</a></li>
+            </ul>-->
+          </div>
+        </div>
         
       </div>
     </div>
