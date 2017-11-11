@@ -124,9 +124,9 @@
         <div class="row"> 
           <!-- Start Featured Blocks -->
           <div class="featured-blocks clearfix">
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/equipe') }}" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Notre Équipe</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/actualites') }}" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>Actualités</strong> <span class="more">read more</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/blog') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Blog</strong> <span class="more">read more</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/equipe') }}" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Notre Équipe</strong> <span class="more">Lire</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/actualites') }}" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>Actualités</strong> <span class="more">Lire</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/blog') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Blog</strong> <span class="more">Lire</span> </a> </div>
           </div>
           <!-- End Featured Blocks --> 
         </div>

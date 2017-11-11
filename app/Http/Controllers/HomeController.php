@@ -157,6 +157,7 @@ class HomeController extends Controller {
 		$dt = Carbon::now('Africa/douala')->format('Y-m-d H:i:s');
         
         $article = DB::table('articles')->where('slug','=',$id)->get();
+            $article[0]->slug  = time().'-'.str_slug($request->input('title'));
         
         /*Updation*/
         if (Input::hasFile('media_url')){
@@ -168,7 +169,7 @@ class HomeController extends Controller {
 
             //Update media_url in Database
             $article[0]->media_url = 'uploads/'.$filename;
-
+            
             //Delete the old image
             //Storage::delete($oldFilename);
          }

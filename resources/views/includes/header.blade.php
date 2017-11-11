@@ -69,7 +69,8 @@
                 <li><a href=" {{ url('/culte') }}">Nos Activités</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/culte') }}">Culte</a></li>
-                    <li><a href="{{ url('/evangelisation') }}">Evangelisation</a></li>
+                    <li><a href="{{ url('/évenement') }}">Évenement</a></li>
+                    <li><a href="{{ url('/evangelisation') }}">Évangelisation</a></li>
                     <li><a href="{{ url('/intercéssion') }}">Intercéssion</a></li>
                   </ul>
                 </li>

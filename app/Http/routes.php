@@ -44,6 +44,10 @@ Route::get('culte', function()
 {
     return view('culte');
 });
+Route::get('évenement', function()
+{
+    return view('events');
+});
 
 Route::get('intercéssion', function()
 {

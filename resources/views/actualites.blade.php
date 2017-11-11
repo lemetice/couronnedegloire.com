@@ -32,83 +32,32 @@
       <div class="container">
           
         <div class="row">
-          <!-- Start Articles -->
-          <div class="col-md-6 col-sm-6">
-            <!-- Latest News -->
-            <div class="listing post-listing">
-              <header class="listing-header">
-                <h3>Actualités recent</h3>
-              </header>
-              <section class="listing-cont">
-                   @if(count($articles) == 0)
+
+          <div class="col-md-12">
+             @if(count($articles) == 0)
                          <div class="no_results bluecolor"> <h1>Aucun article trouvé</h1></div>                       
-                    @endif
-                <ul>
-                  @foreach($articles as $article)
-                    <li class="item post">
-                      <div class="row">
-                        <div class="col-md-4"> 
-                        <a href="{{url('/evangelisation/'.$article->slug)}}">
-                            @if( $article->media_url === null  )                       
-                                    <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
-                            @else
-                              <img class="img-responsive" src="{{ URL::asset($article->media_url) }}" alt="Avatar" />
-                            @endif</div>
-                        <div class="col-md-8">
-                          <div class="post-title">
-                            <h2><a href="{{url('/evangelisation/'.$article->slug)}}">{{ $article->title  }}</a></h2>
-                            <span class="meta-data"><i class="fa fa-calendar"></i> on {{$article->created_at}}</span></div>
-                          <p style="height:60px;
-                          line-height:20px; /* Height / no. of lines to display */
-                          overflow:hidden;" >{{ $article->body  }}</p>
-                        </div>
-                      </div>
-                    </li>
-                  @endforeach
-                </ul>
-              </section>
-            </div>
-          </div>
-          <!-- Start Events -->
-          <div class="col-md-6 col-sm-6"> 
-            <!-- Events Listing -->
-            <div class="listing events-listing">
-              <header class="listing-header">
-                <h3>More Coming Events</h3>
-              </header>
-              <section class="listing-cont">
-                <ul>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">06</span> <span class="month">Aug</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="{{ url('/about') }}">Monday Prayer</a></h4>
-                      <span class="event-dayntime meta-data">Monday | 07:00 AM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="{{ url('/about') }}" class="btn btn-default btn-sm">Details</a></div>
+             @endif
+            <ul class="grid-holder col-3 events-grid isotope" style="position: relative; overflow: hidden; height: 1040.34px;">
+
+              @foreach($articles as $article)
+                <li class="grid-item format-standard isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
+                  <div class="grid-item-inner"> <a href="{{url('/blog/'.$article->slug)}}" class="media-box"> <img src="{{ URL::asset($article->media_url) }}" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-plus"></i></span></a>
+                    <div class="grid-content">
+                      <h3><a href="single-event.html">{{ $article->title  }}</a></h3>
+                      <p>
+                                  {{ substr(strip_tags($article->body),0,300) }}
+                                  {{ strlen($article->body) > 300 ? "...": "" }}
+                      </p>
                     </div>
-                  </li>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">28</span> <span class="month">Aug</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="{{ url('/about') }}">Staff members meet</a></h4>
-                      <span class="event-dayntime meta-data">Monday | 01:00 PM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="{{ url('/about') }}" class="btn btn-default btn-sm">Details</a></div>
-                    </div>
-                  </li>
-                  <li class="item event-item">
-                    <div class="event-date"> <span class="date">25</span> <span class="month">Sep</span> </div>
-                    <div class="event-detail">
-                      <h4><a href="single-event.html">Evening Prayer</a></h4>
-                      <span class="event-dayntime meta-data">Friday | 06:00 PM</span> </div>
-                    <div class="to-event-url">
-                      <div><a href="single-event.html" class="btn btn-default btn-sm">Details</a></div>
-                    </div>
-                  </li>
-                </ul>
-              </section>
-            </div>            
-          </div>          
+                    <ul class="info-table">
+                      <li><i class="fa fa-calendar"></i> {{ $article->created_at }}</li>
+                      <li><i class="fa fa-map-marker"></i> 93200 Saint-Denis RER D, FR</li>
+                    </ul>
+                  </div>
+                </li>
+              @endforeach
+            </ul>
+          </div>         
         </div>        
       </div>
     </div>
