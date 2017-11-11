@@ -157,7 +157,6 @@ class HomeController extends Controller {
 		$dt = Carbon::now('Africa/douala')->format('Y-m-d H:i:s');
         
         $article = DB::table('articles')->where('slug','=',$id)->get();
-            $article[0]->slug  = time().'-'.str_slug($request->input('title'));
         
         /*Updation*/
         if (Input::hasFile('media_url')){
@@ -189,6 +188,38 @@ class HomeController extends Controller {
             /*Flash the user on action executed*/
             $request->session()->flash('success_message', 'Mise à  jour du article effectuer avec succès!');
             return redirect('home/');
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return Response
+     */
+    public function destroy(Request $request, $id)
+    {   
+
+        $dt = Carbon::now('Africa/douala')->format('Y-m-d H:i:s');
+        try{
+
+            $article = Article::findOrFail($id);
+            $article->deleted_at = $dt;
+            $article->save();
+
+            Session::flash('success_message', 'Article supprimée avec succès!');
+
+            return view('home');
+
+        }catch(ModelNotFoundException $e){
+
+            if ($e instanceof ModelNotFoundException)
+            {
+
+                Session::flash('error_message', 'une erreur c\'est! produit');
+
+                return view('home');
+            }
+        }
     }
         
 

@@ -90,6 +90,7 @@ class BlogController extends Controller {
 							->join('article_tag','articles.id','=', 'article_id')
 							->where('tag_id', '=', $tagId[0]->id)
 							->select('title', 'body', 'articles.published_at', 'media_url','slug')
+							->orderBy('articles.created_at', 'desc')
 							->paginate(10);		
 			
 			$articles->setPath($tag_url);
