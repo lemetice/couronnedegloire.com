@@ -29,9 +29,9 @@
         <div class="col-md-4 col-sm-4 widget footer-widget">
           <h4 class="footer-widget-title">MEICG sur les reseaux sociaux</h4>
           <div class="social-icons"> 
-            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"style="font-size:36px"></i></a> 
+            <a href="https://www.facebook.com/sarah.jango.1?ref=br_rs" target="_blank"><i class="fa fa-facebook"style="font-size:36px"></i></a> 
             <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:36px"></i></a>
-            <a href="http://www.youtube.com/" target="_blank"><i class="fa fa-youtube" style="font-size:36px"></i></a> 
+            <a href="https://www.youtube.com/channel/UCiWK7T6r9zwzoQY9w2PE9iQ" target="_blank"><i class="fa fa-youtube" style="font-size:36px"></i></a> 
            </div>
         </div>
       </div>

@@ -32,18 +32,19 @@
       <div class="container">
         <div class="row">
         <div class="col-md-12 col-sm-12 widget footer-widget">
+        <!--
             <p class="" style="font-size:18px;"> 
                 La ointe de l'éternel Sara Sylvie Jango est entouré des hommes et des femmes dynamique siègeant dans un atmosphère de louange. L'évangélisation dans les rues et l'organisation des conférences est la tâche à laquelle est dévoué son équipe sans toute fois oublié les prières nocturnes            
               <br><br>
-            </p>
+            </p>-->
         </div>
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/staff1.jpg" alt=""> </div>
+                <div class="media-box"> <img src="images/gallery-img105.jpg" alt=""> </div>
                 <div class="grid-content">
                   <h3>Sylvie Jango</h3>
-                  <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> </nav>
+                  <nav class="social-icons"> <a href="https://www.facebook.com/sarah.jango.1?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://www.youtube.com/channel/UCiWK7T6r9zwzoQY9w2PE9iQ" target="_blank"><i class="fa fa-youtube"></i></a>  </nav>
                   <p>
                     Sylvie Jango, est née dans une famille polygame de l'ouest camerounais en 1969. Son père, Paris Jango, ayant 13 femmes et 35 enfants.
                     Elle est profondément imprégnée dès son enfance par la foi en Jésus-Christ. Mais c'est au cours d'une campagne d'évangélisation du pasteur Reinhard Bonnke, en tournée au Cameroun à la fin des années 1980, qu'elle a la révélation de Jésus-Christ.<br><br>
@@ -58,9 +59,10 @@
               <div class="grid-item-inner">
                 <div class="media-box"> <img src="images/staff5.jpg" alt=""> </div>
                 <div class="grid-content">
-                  <h3>Francisc Cazan</h3>
-                  <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> </nav>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis fermentum sem, ac viverra ante luctus vel. Donec vel mauris quam.</p>
+                  <h3> KOBANDA Antoinette</h3>
+                  <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> </nav>
+                  <p>
+                    Matthieu, 9:37 - Alors il dit à ses disciples: La moisson est grande, mais il y a peu d`ouvriers. Je suis la Secrétaire Générale  et Chargée de communication de la M. E. I. C. G. La soeur Thérèse et moi secondons la Prophètesse pour l'évangelisation sur les places publiques. Je fais l'ouverture des portes pour le culte du samedi. Le frère Elie, les soeurs Angèle, Marie Chantal et moi constituons l'équipe de chorale.</p>
                 </div>
               </div>
             </div>
@@ -68,7 +70,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/staff3.jpg" alt=""> </div>
+                <div class="media-box"> <img src="images/album-cover.png" alt=""> </div>
                 <div class="grid-content">
                   <h3>Ethan Kay</h3>
                   <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> </nav>
