@@ -70,12 +70,12 @@
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/album-cover.png" alt=""> </div>
+                <div class="media-box"> <img src="images/staff40.jpeg" alt=""> </div>
                 <div class="grid-content">
                   <h3>Garmendia Jean .F</h3>
                   <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> </nav>
                   <p>
-                    Redacteur en Chef, évenementiel et menbre du comité executif des deux associations à  savoir:  la M. E. I. C. G  et l'A. D. R. A.. Je suis également Le premier temoin occulaire de Cette vision ici en occident. En revenche J'ai vu les visions de Cette servante de l'Eternel se realiser les unes après les autres. Entre autres les attentats de Paris, 13 Novembre 2015.</p>
+                    Redacteur en Chef, évenementiel et menbre du comité executif des deux associations à  savoir:  la M. E. I. C. G  et l'A. D. R. A.. Je suis également Le premier temoin occulaire de Cette vision ici en occident. En revenche J'ai vu les visions de Cette servante de l'Eternel se realiser les unes après les autres.</p>
                 </div>
               </div>
             </div>

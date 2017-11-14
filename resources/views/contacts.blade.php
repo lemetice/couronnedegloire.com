@@ -40,7 +40,7 @@
 
 	      <div class="col-md-9">
 	        <header class="single-post-header clearfix">
-	          <h2 class="post-title">Our Location</h2>
+	          <h2 class="post-title">Localisez nous</h2>
 	        </header>
 	        <div class="post-content">
 	          <div id="gmap">
