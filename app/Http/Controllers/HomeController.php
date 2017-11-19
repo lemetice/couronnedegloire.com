@@ -173,7 +173,7 @@ class HomeController extends Controller {
             //Storage::delete($oldFilename);
          }
             $article[0]->title = $request->input('title');
-            $article[0]->slug  = time().'-'.str_slug($request->input('title'));
+            $article[0]->slug  = str_slug($request->input('title'));
             $article[0]->body  = Purifier::clean($request->input('body'));
             $article[0]->updated_at = $dt;                
 

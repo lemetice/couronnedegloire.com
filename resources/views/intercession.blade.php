@@ -93,15 +93,15 @@
               </div>
               <div class="col-md-12 col-sm-12 widget footer-widget"> 
                 <h4 class="footer-widget-title">Prions pour que le Seigneur se révèle aux:</h4>               
-                <ul>
-                <li class="list-font">- Asiatiques </li>
-                <li class="list-font">- Musulmans</li>
-                <li class="list-font">- Catholiques</li>
-                <li class="list-font">- Bouddhistes</li>
-                <li class="list-font">- Hindous</li>
-                <li class="list-font">- Juifs</li>
-                <li class="list-font">- Mormons </li>
-                <li class="list-font">- Témoins de Jéhovah </li>
+                <ul class="chevrons">
+                <li class="list-font">Asiatiques </li>
+                <li class="list-font">Musulmans</li>
+                <li class="list-font">Catholiques</li>
+                <li class="list-font">Bouddhistes</li>
+                <li class="list-font">Hindous</li>
+                <li class="list-font">Juifs</li>
+                <li class="list-font">Mormons </li>
+                <li class="list-font">Témoins de Jéhovah </li>
                 </ul>
               </div>
 
