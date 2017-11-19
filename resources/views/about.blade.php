@@ -8,7 +8,7 @@
         <div class="col-md-12">
           <ol class="breadcrumb">
             <li><a href="{{ url('/') }}">Accueil</a></li>
-            <li class="active">Apropos de nous</li>
+            <li class="active">A propos de nous</li>
           </ol>
         </div>
       </div>
@@ -20,7 +20,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Apropos de nous</h1>
+          <h1>A propos de nous</h1>
         </div>
       </div>
     </div>

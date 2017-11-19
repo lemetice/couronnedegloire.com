@@ -20,9 +20,9 @@
           <h4 class="footer-widget-title">Notre site</h4>
           <ul>
             <li><a href="{{url('/')}}">Accueil</a></li>
-            <li><a href="{{url('about')}}">A propos</a></li>
-            <li><a href="{{url('activities')}}">Activités</a></li>
-            <li><a href="{{url('ressources')}}">Ressources</a></li>
+            <li><a href="{{url('about')}}">A propos de nous</a></li>
+            <li><a href="{{url('actualites')}}">Actualités</a></li>
+            <li><a href="{{url('blog')}}">Blog</a></li>
             <li><a href="{{url('contact')}}">contact</a></li>
           </ul>
         </div>

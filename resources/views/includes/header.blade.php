@@ -56,7 +56,7 @@
                   </ul>
                   -->
                 </li>
-                <li><a href=" {{ url('/about') }}">Nous connaitre</a>
+                <li><a href=" {{ url('/nous-connaitre') }}">Nous connaitre</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/about') }}">Profil</a></li>
                     <li><a href="{{ url('/vision') }}">vision</a></li>

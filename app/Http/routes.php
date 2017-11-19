@@ -25,6 +25,11 @@ Route::get('about', function()
     return view('about');
 });
 
+Route::get('nous-connaitre', function()
+{
+    return view('mission');
+});
+
 Route::get('livre', function()
 {
     return view('livre');
