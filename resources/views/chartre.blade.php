@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide2.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -34,7 +34,7 @@
           <div class="col-md-12">
           <ul class="isotope-grid" data-sort-id="gallery">
             <li class="col-md-6 col-sm-6 grid-item post format-image">
-               <img src="images/reglement.jpg" alt="Reglement"> </a> 
+               <img src="{{ asset('/images/reglement.jpg') }}" alt="Reglement"> </a> 
             </li>            
           </ul>
         </div>

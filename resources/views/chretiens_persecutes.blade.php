@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
 <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide2.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide2.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

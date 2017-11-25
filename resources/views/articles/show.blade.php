@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(../images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -39,7 +39,7 @@
                   <span><a href="#"><i class="fa fa-comment"></i> 12</a></span>
                 </span>
                 <div class="col-md-12">
-                        <img src="{{ URL::asset($article[0]->media_url) }}" class="img-responsive">
+                        <img src="{{ asset($article[0]->media_url) }}" class="img-responsive">
                 </div>                    
                 <div class="spacer-30"></div>
                     <p>{!! $article[0]->body !!} </p>

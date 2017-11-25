@@ -4,8 +4,8 @@
   <!-- Start Hero Slider -->
   <div class="hero-slider flexslider clearfix" data-autoplay="yes" data-pagination="yes" data-arrows="yes" data-style="fade" data-pause="yes">
     <ul class="slides">
-      <li class=" parallax" style="background-image:url(images/slideme.jpg);"></li>
-      <li class="parallax" style="background-image:url(images/slide2.jpeg);"></li>
+      <li class=" parallax" style="background-image:url({{ asset('/images/slideme.jpg') }});"></li>
+      <li class="parallax" style="background-image:url({{ asset('/images/slide2.jpeg') }});"></li>
     </ul>
   </div>
   <!-- End Hero Slider --> 
@@ -124,9 +124,9 @@
         <div class="row"> 
           <!-- Start Featured Blocks -->
           <div class="featured-blocks clearfix">
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/equipe') }}" class="img-thumbnail"> <img src="images/staff.jpg" alt="staff"> <strong>Notre Équipe</strong> <span class="more">Lire</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/actualites') }}" class="img-thumbnail"> <img src="images/newhere.jpg" alt="staff"> <strong>Actualités</strong> <span class="more">Lire</span> </a> </div>
-            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/blog') }}" class="img-thumbnail"> <img src="images/sermons.jpg" alt="staff"> <strong>Blog</strong> <span class="more">Lire</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/equipe') }}" class="img-thumbnail"> <img src="{{ asset('/images/staff.jpg') }}" alt="staff"> <strong>Notre Équipe</strong> <span class="more">Lire</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/actualites') }}" class="img-thumbnail"> <img src="{{ asset('/images/newhere.jpg') }}" alt="staff"> <strong>Actualités</strong> <span class="more">Lire</span> </a> </div>
+            <div class="col-md-4 col-sm-4 featured-block"> <a href="{{ url('/blog') }}" class="img-thumbnail"> <img src="{{ asset('/images/sermons.jpg') }}" alt="staff"> <strong>Blog</strong> <span class="more">Lire</span> </a> </div>
           </div>
           <!-- End Featured Blocks --> 
         </div>
@@ -140,9 +140,9 @@
         <div class="col-md-3 col-sm-3">
           <h4>Visitez nos ressources</h4>
           <a href="{{ url('/evangelisation') }}" class="btn btn-default btn-lg">Plus</a> </div>
-        <div class="col-md-3 col-sm-3 post format-image"> <a href="images/gallery-img1.jpg" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img1.jpg" alt=""> </a> </div>
-        <div class="col-md-3 col-sm-3 post format-video"> <a href="https://www.youtube.com/watch?v=gpbTc10gmFo" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img2.jpg" alt=""> </a> </div>
-        <div class="col-md-3 col-sm-3 post format-image"> <a href="images/gallery-img3.jpg" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="images/gallery-img3.jpg" alt=""> </a> </div>
+        <div class="col-md-3 col-sm-3 post format-image"> <a href="{{ asset('/images/gallery-img1.jpg') }}" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="{{ asset('/images/gallery-img1.jpg') }}" alt=""> </a> </div>
+        <div class="col-md-3 col-sm-3 post format-video"> <a href="https://www.youtube.com/watch?v=gpbTc10gmFo" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="{{ asset('/images/gallery-img2.jpg') }}" alt=""> </a> </div>
+        <div class="col-md-3 col-sm-3 post format-image"> <a href="{{ asset('/images/gallery-img3.jpg') }}" class="media-box" data-rel="prettyPhoto[Gallery]"> <img src="{{ asset('/images/gallery-img3.jpg') }}" alt=""> </a> </div>
       </div>
     </div>
   </div>

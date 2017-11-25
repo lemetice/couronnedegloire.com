@@ -84,9 +84,8 @@
 	          </div>
 	          	<span>
 		          	<strong>10 Rue Charles Gounod 78000 Versailles</strong> <br>
-					<strong>E-mail</strong> <br> lacouronnedegloire@gmail.com <br>
-					adra.france78@gmail.com<br> 
-					<a href="http://www.secoursetsolidarité.com">www.secoursetsolidarité.com</a><br>
+					<strong>E-mail</strong> <br> support@lacouronnedegloire.org <br>
+					
 					<strong>Tél</b> </strong> (+31) 06.81.78.34.31 <br>
 				</span>
 			<!--	

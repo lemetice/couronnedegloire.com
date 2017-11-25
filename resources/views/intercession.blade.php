@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -38,7 +38,7 @@
                 Prions pour les 5 continents , l'Artique et l'Antarctique               
                 <br>
               </p>
-                <div class="media-box"> <img src="images/gallery-img3.jpg" alt=""> </div>
+                <div class="media-box"> <img src="{{ asset('/images/gallery-img3.jpg') }}" alt=""> </div>
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-6"> 

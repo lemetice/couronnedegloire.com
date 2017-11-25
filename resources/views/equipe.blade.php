@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -41,7 +41,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/gallery-img105.jpg" alt=""> </div>
+                <div class="media-box"> <img src="{{ asset('/images/gallery-img105.jpg') }}" alt=""> </div>
                 <div class="grid-content">
                   <h3>Sylvie Jango</h3>
                   <nav class="social-icons"> <a href="https://www.facebook.com/sarah.jango.1?ref=br_rs" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="https://www.youtube.com/channel/UCiWK7T6r9zwzoQY9w2PE9iQ" target="_blank"><i class="fa fa-youtube"></i></a>  </nav>
@@ -57,7 +57,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/staff5.jpg" alt=""> </div>
+                <div class="media-box"> <img src="{{ asset('/images/staff5.jpg') }}" alt=""> </div>
                 <div class="grid-content">
                   <h3> KOBANDA Antoinette</h3>
                   <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> </nav>
@@ -70,7 +70,7 @@
           <div class="col-md-4 col-sm-4">
             <div class="grid-item staff-item">
               <div class="grid-item-inner">
-                <div class="media-box"> <img src="images/staff40.jpeg" alt=""> </div>
+                <div class="media-box"> <img src="{{ asset('/images/staff40.jpeg') }}" alt=""> </div>
                 <div class="grid-content">
                   <h3>Garmendia Jean .F</h3>
                   <nav class="social-icons"> <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a> <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a> <a href="http://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a> <a href="http://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a> </nav>

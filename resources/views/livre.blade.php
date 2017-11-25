@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -32,16 +32,16 @@
         <div class="row">
           <ul class="isotope-grid" data-sort-id="gallery">
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="images/sylvie-jango-4.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/sylvie-jango-4.jpg" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-4.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-4.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="images/sylvie-jango-3.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/sylvie-jango-3.jpg" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-3.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-3.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="images/sylvie-jango-2.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/sylvie-jango-2.jpg" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-2.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-2.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="images/sylvie-jango-1.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/sylvie-jango-1.jpg" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-1.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-1.jpg') }}" alt=""> </a> </div>
             </li>
           </ul>
         </div>

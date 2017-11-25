@@ -1,7 +1,7 @@
 @extends('app')
 @section('content')
   <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -45,9 +45,9 @@
                               <div class="col-md-4 col-sm-4">
                                 <a href="{{url('/blog/'.$article->slug)}}">
                       @if( $article->media_url === null  )                       
-                                    <img class="img-responsive" src="{{ URL::asset('assets/images/album-cover.png') }}" alt="Avatar" />
+                                    <img class="img-responsive" src="{{ asset('/images/album-cover.png') }}" alt="Avatar" />
                                 @else
-                                    <img class="img-responsive" src="{{ URL::asset($article->media_url) }}" alt="Avatar" />
+                                    <img class="img-responsive" src="{{ asset($article->media_url) }}" alt="Avatar" />
                                 @endif
                               </div>
                               <div class="col-md-8 col-sm-8">

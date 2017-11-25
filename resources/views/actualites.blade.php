@@ -2,7 +2,7 @@
 @section('content')
 
 <!-- Start Nav Backed Header -->
-  <div class="nav-backed-header parallax" style="background-image:url(images/slide1.jpg);">
+  <div class="nav-backed-header parallax" style="background-image:url({{ asset('/images/slide1.jpg') }});">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -41,7 +41,7 @@
 
               @foreach($articles as $article)
                 <li class="grid-item format-standard isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
-                  <div class="grid-item-inner"> <a href="{{url('/blog/'.$article->slug)}}" class="media-box"> <img src="{{ URL::asset($article->media_url) }}" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-plus"></i></span></a>
+                  <div class="grid-item-inner"> <a href="{{url('/blog/'.$article->slug)}}" class="media-box"> <img src="{{ asset($article->media_url) }}" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-plus"></i></span></a>
                     <div class="grid-content">
                       <h3><a href="single-event.html">{{ $article->title  }}</a></h3>
                       <p>

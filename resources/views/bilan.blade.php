@@ -32,7 +32,7 @@
         <div class="row">
           <ul class="isotope-grid" data-sort-id="gallery">
             <li class="col-md-6 col-sm-6 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="images/bilan.jpg" data-rel="prettyPhoto" class="media-box"> <img src="images/bilan.jpg" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="{{ asset('/images/bilan.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/bilan.jpg') }}" alt=""> </a> </div>
             </li>
             
           </ul>

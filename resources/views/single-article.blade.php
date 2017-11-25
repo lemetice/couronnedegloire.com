@@ -37,26 +37,16 @@
                 
                 <div class="row">
                 	<div class="col-md-7">
-              			<img src="{{ URL::asset($article[0]->media_url) }}" class="img-responsive">
+              			<img src="{{ asset($article[0]->media_url) }}" class="img-responsive">
                     </div>
                 	<div class="col-md-5">
                       <a href="#" class="btn btn-primary btn-md btn-block donate-paypal" data-toggle="modal" data-target="#EditArticle">Edit Article</a>
-                        <ul class="list-group">
-                          <li class="list-group-item">
-                          	<h4>Cause Progress</h4>
-                            <div class="progress">
-                              <div class="progress-bar progress-bar-success" data-appear-progress-animation="80%" data-appear-animation-delay="200"></div><!-- Upto 30% use class progress-bar-danger , upto 70% use class progress-bar-warning , afterwards use class progress-bar-success -->
-                            </div>
-                          </li>
-                      	  <li class="list-group-item"> <span class="badge">$200000</span> Amount Needed </li>
-                      	  <li class="list-group-item"> <span class="badge">$160000</span> Collected yet </li>
-                      	  <li class="list-group-item"> <span class="badge accent-bg">80%</span> Percentile </li>
-                      	  <li class="list-group-item"> <span class="badge">15</span> Days left to achieve target</li>
-                        </ul>
+                        
+                        
                     </div>
                 </div>
                 <div class="spacer-30"></div>
-                <p>{{ $article[0]->body }} </p>
+                <p>{!! $article[0]->body !!}  </p>
             </article>
             <!-- Payment Modal Window -->
             <div class="modal fade" id="EditArticle" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="PaymentModalLabel" aria-hidden="true">
@@ -73,7 +63,7 @@
               </div>
             </div>
           </div>
-          <!-- Start Sidebar -->
+          <!-- Start Sidebar 
           <div class="col-md-3 sidebar">
             <div class="widget sidebar-widget search-form-widget">
               <div class="input-group input-group-lg">
@@ -81,15 +71,9 @@
                 <span class="input-group-btn">
                 <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
                 </span> </div>
-            </div>
+            </div>           
             
-            <div class="widget sidebar-widget">
-              <div class="sidebar-widget-title">
-                <h3>Post Tags</h3>
-              </div>
-              <div class="tag-cloud"> <a href="#">Faith</a> <a href="#">Heart</a> <a href="#">Love</a> <a href="#">Praise</a> <a href="#">Sin</a> <a href="#">Soul</a> <a href="#">Missions</a> <a href="#">Worship</a> <a href="#">Faith</a> <a href="#">Heart</a> <a href="#">Love</a> <a href="#">Praise</a> <a href="#">Sin</a> <a href="#">Soul</a> <a href="#">Missions</a> <a href="#">Worship</a> </div>
-            </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
