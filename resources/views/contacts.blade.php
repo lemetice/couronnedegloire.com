@@ -47,7 +47,16 @@
 	            <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=48.801407, 2.130122&amp;spn=0.043846,0.077162&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 	          </div>
 	          <div class="row">
-	            <form method="post" id="contactform" name="contactform" class="contact-form" action="http://html.imithemes.com/nativechurch/mail/contact.php">
+                {!! Form::open(
+                                  array(
+                                  'url' => 'contact-us',
+                                  'method' => 'post',
+                                  'class' => 'form validate item_bottom',
+                                  'style'=> "opacity: 1; bottom: 0px;",
+                                  'name'=> "contactform",
+                                  'id'=> "contactform"
+                                  ))
+                                 !!}
 	              <div class="col-md-6 margin-15">
 	                <div class="form-group">
 	                  <input type="text" id="name" name="name"  class="form-control input-lg" placeholder="Name*">
@@ -67,7 +76,7 @@
 	              <div class="col-md-12">
 	                <input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="Submit now!">
 	              </div>
-	            </form>
+	            {!! Form:: close() !!}
 	            <div class="clearfix"></div>
 	            <div class="col-md-12">
 	              <div id="message"></div>

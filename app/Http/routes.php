@@ -119,3 +119,7 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+/*Email: Contact us*/
+Route::post('contact-us', 'WelcomeController@contactUs');
