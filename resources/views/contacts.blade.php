@@ -65,12 +65,12 @@
 	                  <input type="email" id="email" name="email"  class="form-control input-lg" placeholder="Email*">
 	                </div>
 	                <div class="form-group">
-	                  <input type="text" id="phone" name="phone" class="form-control input-lg" placeholder="Phone">
+	                  <input type="text" id="phone" name="tel" class="form-control input-lg" placeholder="Phone">
 	                </div>
 	              </div>
 	              <div class="col-md-6">
 	                <div class="form-group">
-	                  <textarea cols="6" rows="7" id="comments" name="comments" class="form-control input-lg" placeholder="Message"></textarea>
+	                  <textarea id="comments" cols="6" rows="7"  name="message" class="form-control input-lg" placeholder="Message"></textarea>
 	                </div>
 	              </div>
 	              <div class="col-md-12">

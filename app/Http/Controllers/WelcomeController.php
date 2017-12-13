@@ -101,7 +101,8 @@ class WelcomeController extends Controller {
 
 		$success_message ='<span style="background-color: #A7C139; border-radius: 10px; -webkit-border-radius: 8px; color: #fff; padding: 0px 10px;">Thanks for contacting us. You will get a reply within 24hrs</span>';
 
-		return $success_message;
+		
+		return view('contacts', compact('success_message'));
 	}
 
 }
