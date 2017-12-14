@@ -31,6 +31,7 @@
 	<div id="content" class="content full">
 	  <div class="container">
 	    <div class="row">
+  			@include('sessions.sessionlist')
 	    	<div class="col-md-12 col-sm-12 widget footer-widget">
 	            <p class="" style="font-size: 18px;">
 		    	Planning de la Prophétesse : Pour les demandes de prières en ligne, appelez tous les lundis et dimanches à partir de 17 h 00 jusqu'à 22 h 00. Si elle n'est pas disponible, laissez un message sur le répondeur ou envoyez un sms. En dehors de ces créneaux horaires, la Prophétesse se trouve en évangélisation, en connection divine avec le Saint-Esprit et doit également effectuer ses démarches personnelles. Elle répond aussi à beaucoup de sollicitations de l'étranger, alors s'il vous plaît veuillez respecter les horaires téléphoniques indiqués ci-dessus.
