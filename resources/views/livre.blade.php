@@ -19,7 +19,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1>Livres</h1>
+          <h1>Achat Livres</h1>
         </div>
       </div>
     </div>

@@ -75,7 +75,7 @@
 	                </div>
 	              </div>
 	              <div class="col-md-12">
-	                <input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="Submit now!">
+	                <input id="submit" name="submit" type="submit" class="btn btn-primary btn-lg pull-right" value="Valider">
 	              </div>
 	            {!! Form:: close() !!}
 	            <div class="clearfix"></div>

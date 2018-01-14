@@ -58,8 +58,8 @@
                 </li>
                 <li><a href=" {{ url('/nous-connaitre') }}">Nous connaitre</a>
                   <ul class="dropdown">
-                    <li><a href="{{ url('/about') }}">Profil</a></li>
                     <li><a href="{{ url('/vision') }}">vision</a></li>
+                    <li><a href="{{ url('/about') }}">Profil</a></li>
                     <li><a href="{{ url('/bilan') }}">Bilan</a></li>
                     <li><a href="{{ url('/equipe') }}">Équipe</a></li>
                     <li><a href="{{ url('/auth/login') }}">Membre</a></li>
@@ -117,8 +117,8 @@
                 <li><a href="{{ url('livre') }}">Ressources</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('livre') }}">Livre</a></li>
-                    <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li><!--
-                    <li><a href="{{ url('/') }}">Audio</a></li>
+                    <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li>
+                    <li><a href="{{ url('https://soundcloud.com/user-45745847') }}">SoundCloud</a></li><!--
                     <li><a href="{{ url('/') }}">Gallerie</a></li>-->
                   </ul>
                 </li>

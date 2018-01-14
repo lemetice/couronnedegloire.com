@@ -44,6 +44,38 @@
               </header>
               <section class="listing-cont">
                 <ul>
+
+                  <li class="item event-item">
+                    <div>
+                    <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
+                        <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
+                          <blockquote>
+                          <p>
+                              La parabole du festin des noces (Matthieu 22:1-14) nous fait part du fait que les noces de l'agneau sont prêt, mais nous ne sommes pas encore prêt. Car nous ne sommes pas encore digne de mettre notre robe blanche pour les noces avec Jésus Christ, (Apocalypse 3 :4-5). Efforcez vous d'entrer par la porte étroite, car beaucoup chercheront à y entré...( Luc 13:24).
+                          </p> 
+                          <cite style="color: #C71B1B"> Matthieu 22:1-14,Apocalypse 3 :4-5, Luc 13:24</cite>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="item event-item">
+                    <div>
+                    <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
+                        <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
+                          <blockquote>
+                          <p>                              
+                              1 -L`Éternel est mon berger: je ne manquerai de rien.<br>
+                              2 - Il me fait reposer dans de verts pâturages, Il me dirige près des eaux paisibles.<br>
+                              3 - Il restaure mon âme, Il me conduit dans les sentiers de la justice, A cause de son nom.<br>
+                              4 - Quand je marche dans la vallée de l`ombre de la mort, Je ne crains aucun mal, car tu es avec moi: Ta houlette et ton bâton me rassurent.<br>
+                              5 - Tu dresses devant moi une table, En face de mes adversaires; Tu oins d`huile ma tête, Et ma coupe déborde.<br>
+                              6 - Oui, le bonheur et la grâce m`accompagneront Tous les jours de ma vie, Et j`habiterai dans la maison de l`Éternel Jusqu`à la fin de mes jours.
+                          </p> 
+                          <cite style="color: #C71B1B"> Psaumes 23</cite>
+                        </blockquote>
+                      </div>
+                    </div>
+                  </li>
                   <li class="item event-item">
                     <div>
                       <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
@@ -59,20 +91,7 @@
                         </blockquote>
                     </div>
                     </div>
-                  </li>
-                  <li class="item event-item">
-                    <div>
-                    <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
-                        <div class="swmsc_services_item_holder swmsc_services_icon_large" style="margin-right: 30px; margin-bottom: 0px;">
-                          <blockquote>
-                          <p>
-                              Avant que je t`eusse formé dans le ventre de ta mère, je te connaissais, et avant que tu fusses sorti de son sein, je t`avais consacré, je t`avais établi prophète des nations.
-                          </p> 
-                          <cite style="color: #C71B1B"> Jérémie 1.5</cite>
-                        </blockquote>
-                      </div>
-                    </div>
-                  </li>
+                  </li><!--
                   <li class="item event-item">
                     <div>
                     <div class="swmsc_services_icons swmsc_responsive_services swmsc_services_item_left" data-responsive="767" data-margin="30">
@@ -97,7 +116,7 @@
                         </blockquote>
                         </div>
                     </div>
-                  </li>
+                  </li> -->
                 </ul>
               </section>
             </div>
