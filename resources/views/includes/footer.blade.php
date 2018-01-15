@@ -46,7 +46,7 @@
         </div>
         <div class="copyrights-col-right col-md-6 col-sm-6">
           Direction de l’information légale et administrative <i class="fa fa-arrow"></i>
-          <!--<a href="{{ url('mentions-legales') }}">Mentions légales</i></a>-->
+          <a href="{{ url('mentions-legales') }}">Mentions légales</i></a>
         </div>
       </div>
     </div>

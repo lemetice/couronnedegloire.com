@@ -35,122 +35,105 @@
                 <div class="col-md-12 col-sm-12 center-col 
                     ">
                         <div>
-                          <h1 class="h3">Nos mentions légales</h1>
+                          <h1 class="h3">Mentions légales</h1>
                         </div>
                         <div class="separator-line bg-yellow margin-five" style="float:left"></div>
-                    </div>
+                </div>
   <br style="clear:both"> 
-   <article><div class="col-md-12 col-sm-12  text-med"> Merci de lire attentivement les présentes modalités d'utilisation du présent site avant de le parcourir. En vous connectant sur ce site, vous acceptez sans réserve les présentes modalités.
-<h3>Editeur du site</h3>
+   <article><div class="col-md-12 col-sm-12  text-med"> La seule contrepartie à l’utilisation de ces mentions légales, est l’engagement total à laisser le lien crédit subdelirium sur cette page de mentions légales.
+
+Vos mentions légales :
+Informations légales<br>
+
+<h3>1-Présentation du site</h3>
 
 <div class="coordonnees vcard" style="">
-<p><a style="text-decoration:none" href="https://www.site-internet-qualite.fr/"><b>Site Internet Qualité</b></a><br>
-par <a style="text-decoration:none" href="http://www.natural-net.fr/">Natural-net</a><br>
-49 boulevard Antoine Gautier<br>
-33000 Bordeaux<br>
-<span class="country-name">France</span><br>
-<span class="tel"><span class="type">Tél. : </span>+ 33 (0)6 62 79 25 55</span><br>
-<span class="fax"><span class="type">Fax : </span>+ 33 (0)5 40 00 02 66</span><br>
-<a style="text-decoration:none" class="org url" href="http://www.site-internet-qualite.fr" target="_blank" title="Nouvelle fenetre">http://www.site-internet-qualite.fr</a><br>
+<p><b>En vertu de l’article 6 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique, il est précisé aux utilisateurs du site www.lacouronnedegloire.org l’identité des différents intervenants dans le cadre de sa réalisation et de son suivi :</b><br>
+
+<strong>Propriétaire : </strong><br>
+Mission Évangelique la Couronne de Gloire (MEICG)<br>
+10 Rue Charles Gounod 78000 Versailles<br>
+E-mail : support@lacouronnedegloire.org<br>
+<span class="tel"><span class="type">Tél. : </span>(+33) 681783431</span><br>
+
+<strong>Créateur : A.C </strong><br>
+Responsable publication : Herve Doungue – hervesamin90@gmail.com <br>
+Le responsable publication est une personne physique ou une personne morale.
+Webmaster : Herve Doungue – hervesamin90@gmail.com<br>
+Hébergeur : Godaddy.com – 14455 N. Hayden Rd #219 - Scottsdale, AZ 85260<br>
+Crédits : les mentions légales ont étés générées et offertes par <a  style="color: red" class="" href="https://www.subdelirium.com/agence-web/agence-web-charente/" target="_blank" title="Subdelirium Agence">Subdelirium agence web Charente </a>
 <br>
-Natural-net est une EURL au capital de 3500€<br>
-RCS B 497 553 71 - Siret : 49755371900020 - APE : 6201Z<br>
-N° déclaration CNIL :&nbsp;1522193</p>
+
 </div>
 
-<h3>Conditions d'utilisation</h3>
-Le site accessible par les url suivants : www.site-internet-qualite.fr est exploité dans le respect de la législation française. L'utilisation de ce site est régie par les présentes conditions générales. En utilisant le site, vous reconnaissez avoir pris connaissance de ces conditions et les avoir acceptées. Celles-ci pourront êtres modifiées à tout moment et sans préavis par la société Natural-net.<br>
-Natural-net ne saurait être tenu pour responsable en aucune manière d’une mauvaise utilisation du service.
-<h3>Responsable éditorial</h3>
+<h3>2. Conditions générales d’utilisation du site et des services proposés.</h3>
+<p>L’utilisation du site www.lacouronnedegloire.org implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site www.lacouronnedegloire.org sont donc invités à les consulter de manière régulière.</p>
+<p>Ce site est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par MEICG, qui s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention.
+Le site www.lacouronnedegloire.org est mis à jour régulièrement par Josue Toe. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.</p><br>
 
-<div class="coordonnees vcard" style="">
-<p>Eric Emery<br>
-<b>Site Internet Qualité</b><br>
-par Natural-net<br>
-49 boulevard Antoine Gautier<br>
-33000 Bordeaux<br>
-<span class="country-name">France</span><br>
-<span class="tel"><span class="type">Tél. : </span>+ 33 (0)6 62 79 25 55</span><br>
-<span class="fax"><span class="type">Fax : </span>+ 33 (0)5 40 00 02 66</span><br>
-<a style="text-decoration:none" class="org url" href="http://www.site-internet-qualite.fr" target="_blank" title="Nouvelle fenetre">http://www.site-internet-qualite.fr</a></p>
+<h3>3. Description des services fournis.</h3>
+
+<div class="" style="">
+<p>Le site www.lacouronnedegloire.org a pour objet de fournir une information concernant l’ensemble des activités de la société.<br>
+MEICG s’efforce de fournir sur le site www.lacouronnedegloire.org des informations aussi précises que possible. Toutefois, il ne pourra être tenue responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.</p>
+<p>
+Toutes les informations indiquées sur le site www.lacouronnedegloire.org sont données à titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur le site www.lacouronnedegloire.org ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne.
+</p>
 </div>
 
-<h3>Limitation de responsabilité</h3>
-Les informations contenues sur ce site sont aussi précises que possibles et le site est périodiquement remis à jour, mais peut toutefois contenir des inexactitudes, des omissions ou des lacunes. Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par <a style="text-decoration:none" href="/nos-coordonnees.html">email</a> en décrivant le problème de la manière la plus précise possible (page posant problème, action déclenchante, type d’ordinateur et de navigateur utilisé, …).<br>
-<br>
-Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule responsabilité. En conséquence, Natural-net ne saurait être tenu responsable d'un quelconque dommage subi par l'ordinateur de l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement.<a style="text-decoration:none" href="https://www.site-internet-qualite.fr/">&nbsp;</a> <a style="text-decoration:none" href="http://www.natural-net.fr/">&nbsp;</a><br>
-<br>
-Les photos sont non contractuelles.<br>
-<br>
-Les liens hypertextes mis en place dans le cadre du présent site internet en direction d'autres ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de Natural-net.
-<h3>Litiges</h3>
-Les présentes conditions sont régies par les lois françaises et toute contestation ou litiges qui pourraient naître de l'interprétation ou de l'exécution de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social de la société Natural-net. La langue de référence, pour le règlement de contentieux éventuels, est le français.
+<h3>4. Limitations contractuelles sur les données techniques.</h3>
+<div><p>Le site utilise la technologie JavaScript.
+Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour
+</p></div>
 
-<h3>Déclaration à la CNIL</h3>
-Conformément à la loi 78-17 du 6 janvier 1978 (modifiée par la loi 2004-801 du 6 août 2004 relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel) relative à l'informatique, aux fichiers et aux libertés, le site a fait l'objet d'une déclaration auprès de la Commission nationale de l'informatique et des libertés (<a style="text-decoration:none" href="http://www.cnil.fr/" target="_blank">www.cnil.fr</a>).&nbsp;
+<h3>5. Propriété intellectuelle et contrefaçons.</h3>
+<div><p>MEICG est propriétaire des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment les textes, images, graphismes, logo, icônes, sons, logiciels. <br>
+Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : MEICG.<br>
+Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle</p>
+</div>
 
-<h3>Droit d'accès</h3>
-En application de cette loi, les internautes disposent d’un droit d’accès, de rectification, de modification et de suppression concernant les données qui les concernent personnellement. Ce droit peut être exercé par voie postale auprès de Natural-net 49 Boulevard Antoine Gautier 33000 Bordeaux  ou par voie électronique à l’adresse email suivante : <a style="text-decoration:none" href="mailto:%7BSOCIETE.contact_email%7D">contact@natural-net.fr</a>.<br>
-Les informations personnelles collectées ne sont en aucun cas confiées à des tiers hormis pour l’éventuelle bonne exécution de la prestation commandée par l’internaute.
-<h3>Confidentialité</h3>
-Vos données personnelles sont confidentielles et ne seront en aucun cas communiquées à des tiers hormis pour la bonne exécution de la prestation.
+<h3>6. Limitations de responsabilité.</h3>
+<div>
+  <p>    
+MEICG ne pourra être tenue responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site www.lacouronnedegloire.org, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.<br>
+MEICG ne pourra également être tenue responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site www.lacouronnedegloire.org.
+Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. MEICG se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, CIE-MIA se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie…).
+</p></div>
 
-<h3>Propriété intellectuelle</h3>
+<h3>7. Gestion des données personnelles.</h3>
+<div><p>
+En France, les données personnelles sont notamment protégées par la loi n° 78-87 du 6 janvier 1978, la loi n° 2004-801 du 6 août 2004, l’article L. 226-13 du Code pénal et la Directive Européenne du 24 octobre 1995.<br>
+A l’occasion de l’utilisation du site www.lacouronnedegloire.org, peuvent êtres recueillies : l’URL des liens par l’intermédiaire desquels l’utilisateur a accédé au site www.lacouronnedegloire.org, le fournisseur d’accès de l’utilisateur, l’adresse de protocole Internet (IP) de l’utilisateur.
+En tout état de cause MEICG ne collecte des informations personnelles relatives à l’utilisateur que pour le besoin de certains services proposés par le site www.lacouronnedegloire.org. L’utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu’il procède par lui-même à leur saisie. Il est alors précisé à l’utilisateur du site www.lacouronnedegloire.org l’obligation ou non de fournir ces informations.<br>
+Conformément aux dispositions des articles 38 et suivants de la loi 78-17 du 6 janvier 1978 relative à l’informatique, aux fichiers et aux libertés, tout utilisateur dispose d’un droit d’accès, de rectification et d’opposition aux données personnelles le concernant, en effectuant sa demande écrite et signée, accompagnée d’une copie du titre d’identité avec signature du titulaire de la pièce, en précisant l’adresse à laquelle la réponse doit être envoyée.<br>
+Aucune information personnelle de l’utilisateur du site www.lacouronnedegloire.org n’est publiée à l’insu de l’utilisateur, échangée, transférée, cédée ou vendue sur un support quelconque à des tiers. Seule l’hypothèse du rachat de MEICG et de ses droits permettrait la transmission des dites informations à l’éventuel acquéreur qui serait à son tour tenu de la même obligation de conservation et de modification des données vis à vis de l’utilisateur du site www.lacouronnedegloire.org.<br>
+Le site n’est pas déclaré à la CNIL car il ne recueille pas d’informations personnelles. .
+Les bases de données sont protégées par les dispositions de la loi du 1er juillet 1998 transposant la directive 96/9 du 11 mars 1996 relative à la protection juridique des bases de données.
+</p></div>
 
-<p>Tout le contenu du présent site, incluant, de façon non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et icônes ainsi que leur mise en forme sont la propriété exclusive de la société Natural-net à l'exception des marques, logos ou contenus appartenant à d'autres sociétés partenaires ou auteurs.<br>
-Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord exprès par écrit de Natural-net. Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une contrefaçon sanctionnée par les articles L.3335-2 et suivants du Code de la propriété intellectuelle. Le non-respect de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile et pénale du contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une action en justice à votre encontre.<br>
-<br>
-Natural-net est identiquement propriétaire des "droits des producteurs de bases de données" visés au Livre III, Titre IV, du Code de la Propriété Intellectuelle (loi n° 98-536 du 1er juillet 1998) relative aux droits d'auteur et aux bases de données. <a style="text-decoration:none" href="https://www.site-internet-qualite.fr/"> </a> <a style="text-decoration:none" href="http://www.natural-net.fr/"> </a><br>
-<br>
-Les utilisateurs et visiteurs du site internet peuvent mettre en place un hyperlien en direction de ce site, mais uniquement en direction de la page d’accueil, accessible à l’URL suivante : www.site-internet-qualite.fr, à condition que ce lien s’ouvre dans une nouvelle fenêtre. En particulier un lien vers une sous page (« lien profond ») est interdit, ainsi que l’ouverture du présent site au sein d’un cadre (« framing »), sauf l'autorisation expresse et préalable de Natural-net.<br>
-<br>
-Pour toute demande d'autorisation ou d'information, veuillez nous contacter par email : <a style="text-decoration:none" href="mailto:%7BSOCIETE.contact_email%7D">contact@natural-net.fr</a>. Des conditions spécifiques sont prévues pour la presse.</p>
+<h3>8. Liens hypertextes et cookies.</h3>
+Le site www.lacouronnedegloire.org contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de CIE-MIA. Cependant, CIE-MIA n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.<br>
+La navigation sur le site www.lacouronnedegloire.org est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l’identification de l’utilisateur, mais qui enregistre des informations relatives à la navigation d’un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation.<br>
+Le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. L’utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l’installation des cookies :<br>
+Sous Internet Explorer : onglet outil (pictogramme en forme de rouage en haut a droite) / options internet. Cliquez sur Confidentialité et choisissez Bloquer tous les cookies. Validez sur Ok.
+Sous Firefox : en haut de la fenêtre du navigateur, cliquez sur le bouton Firefox, puis aller dans l’onglet Options. Cliquer sur l’onglet Vie privée.
+Paramétrez les Règles de conservation sur : utiliser les paramètres personnalisés pour l’historique. Enfin décochez-la pour désactiver les cookies.
+Sous Safari : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par un rouage). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section « Confidentialité », cliquez sur Paramètres de contenu. Dans la section « Cookies », vous pouvez bloquer les cookies.<br>
+Sous Chrome : Cliquez en haut à droite du navigateur sur le pictogramme de menu (symbolisé par trois lignes horizontales). Sélectionnez Paramètres. Cliquez sur Afficher les paramètres avancés. Dans la section « Confidentialité », cliquez sur préférences. Dans l’onglet « Confidentialité », vous pouvez bloquer les cookies.
+</p></div>
 
-<p>Par ailleurs, la mise en forme de ce site a nécessité le recours à des sources externes dont nous avons acquis les droits ou dont les droits d'utilisation sont ouverts : Pioneer - Multi-Purpose HTML 5 / CSS 3 Corporate Template.<a style="text-decoration:none" href="https://www.site-internet-qualite.fr/">&nbsp;</a> <a style="text-decoration:none" href="http://www.natural-net.fr/">&nbsp;</a></p>
+<h3>9. Droit applicable et attribution de juridiction.</h3>
+Tout litige en relation avec l’utilisation du site www.lacouronnedegloire.org est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
 
-<div id="documenter_buttons">&nbsp;</div>
+<h3>10. Les principales lois concernées.</h3>
+Loi n° 78-87 du 6 janvier 1978, notamment modifiée par la loi n° 2004-801 du 6 août 2004 relative à l’informatique, aux fichiers et aux libertés.
+Loi n° 2004-575 du 21 juin 2004 pour la confiance dans l’économie numérique.
 
-<ul>
-  <li>Créé le : 24/05/2016</li>
-  <li>Auteur :&nbsp;<a style="text-decoration:none" href="http://themeforest.net/user/Dankov" target="_blank">Dankov</a></li>
-  <li>E-mail de l'auteur :&nbsp;<a style="text-decoration:none" href="mailto:dankov.theme@gmail.com">dankov.theme@gmail.com</a></li>
-</ul>
+<h3>11. Lexique.</h3>
+Utilisateur : Internaute se connectant, utilisant le site susnommé.
+Informations personnelles : « les informations qui permettent, sous quelque forme que ce soit, directement ou non, l’identification des personnes physiques auxquelles elles s’appliquent » (article 4 de la loi n° 78-17 du 6 janvier 1978).
 
-<h3>Hébergeur</h3>
-<span style="font-weight: bold;">Kiubi</span><br>
-Plateforme de gestion et création de sites internet<br>
-<a style="text-decoration:none" href="http://www.kiubi.com/" target="_blank">www.kiubi.com</a><br>
-<a style="text-decoration:none" href="mailto:contact@kiubi.com?subject=%7BSOCIETE.societe_nom%7D">contact@kiubi.com</a>
 
-<h2>Conditions de service</h2>
-Ce site est proposé en langages <strong>HTML5 </strong>et <strong>CSS3</strong>, pour un meilleur confort d'utilisation et un graphisme plus agréable, nous vous recommandons de recourir à des navigateurs modernes comme Safari, Firefox, Chrome,...<a style="text-decoration:none" href="https://www.site-internet-qualite.fr/"> </a> <a style="text-decoration:none" href="http://www.natural-net.fr/"> </a>
-
-<h3>Informations et exclusion</h3>
-Natural-net met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise à jour fiable de ses sites internet. Toutefois, des erreurs ou omissions peuvent survenir. L'internaute devra donc s'assurer de l'exactitude des informations auprès de Natural-net, et signaler toutes modifications du site qu'il jugerait utile. Natural-net n'est en aucun cas responsable de l'utilisation faite de ces informations, et de tout préjudice direct ou indirect pouvant en découler.
-
-<h3>Cookies</h3>
-Pour des besoins de statistiques et d'affichage, le présent site utilise des cookies. Il s'agit de petits fichiers textes stockés sur votre disque dur afin d'enregistrer des données techniques sur votre navigation. Certaines parties de ce site ne peuvent être fonctionnelle sans l’acceptation de cookies.
-
-<h3>Liens hypertextes</h3>
-Les sites internet de Natural-net peuvent offrir des liens vers d’autres sites internet ou d’autres ressources disponibles sur Internet.<br>
-<br>
-Natural-net ne dispose d'aucun moyen pour contrôler les sites en connexion avec ses sites internet. Natural-net ne répond pas de la disponibilité de tels sites et sources externes, ni ne la garantit. Elle ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à cette utilisation incombent pleinement à l'internaute, qui doit se conformer à leurs conditions d'utilisation.<br>
-<br>
-Les utilisateurs, les abonnés et les visiteurs des sites internet de Natural-net ne peuvent mettre en place un hyperlien en direction de ce site sans l'autorisation expresse et préalable de Natural-net.<br>
-<br>
-Dans l'hypothèse où un utilisateur ou visiteur souhaiterait mettre en place un hyperlien en direction d’un des sites internet de Natural-net, il lui appartiendra d'adresser un email accessible sur le site afin de formuler sa demande de mise en place d'un hyperlien. Natural-net se réserve le droit d’accepter ou de refuser un hyperlien sans avoir à en justifier sa décision.
-<h3>Recherche</h3>
-En outre, le renvoi sur un site internet pour compléter une information recherchée ne signifie en aucune façon que Natural-net reconnaît ou accepte quelque responsabilité quant à la teneur ou à l'utilisation dudit site.
-
-<h3>Précautions d'usage</h3>
-Il vous incombe par conséquent de prendre les précautions d'usage nécessaires pour vous assurer que ce que vous choisissez d'utiliser ne soit pas entaché d'erreurs voire d'éléments de nature destructrice tels que virus, trojans, etc....
-
-<h3>Responsabilité</h3>
-Aucune autre garantie n'est accordée au client, auquel incombe l'obligation de formuler clairement ses besoins et le devoir de s'informer. Si des informations fournies par Natural-net apparaissent inexactes, il appartiendra au client de procéder lui-même à toutes vérifications de la cohérence ou de la vraisemblance des résultats obtenus. Natural-net ne sera en aucune façon responsable vis à vis des tiers de l'utilisation par le client des informations ou de leur absence contenues dans ses produits y compris un de ses sites Internet.<a style="text-decoration:none" href="https://www.site-internet-qualite.fr/">&nbsp;</a> <a style="text-decoration:none" href="http://www.natural-net.fr/">&nbsp;</a>
-
-<h3>Contactez-nous</h3>
-Natural-net est à votre disposition pour tous vos commentaires ou suggestions. Vous pouvez nous écrire en français par courrier électronique à : <a style="text-decoration:none" href="mailto:site-internet-qualite@natural-net.fr">contact@natural-net.fr</a>.<br>
-<a style="text-decoration:none" href="https://www.site-internet-qualite.fr/">&nbsp;</a> <a style="text-decoration:none" href="http://www.natural-net.fr/">&nbsp;</a> &nbsp;</div></article>
 
 
 
