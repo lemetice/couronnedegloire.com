@@ -62,7 +62,7 @@
                   </div>
                 </li>
                 <li class="grid-item format-standard isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 0px);">
-                  <div class="grid-item-inner"> <a href="#" class="media-box"> <img src="{{ asset('/images/gallery-img3.jpg') }}" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-plus"></i></span></a>
+                  <div class="grid-item-inner"> <a href="#" class="media-box"> <img src="{{ asset('/images/gallery-img111.jpg') }}" alt=""> <span class="zoom" style="width: 224px; height: 224px; line-height: 224px;"><i class="fa fa-plus"></i></span></a>
                     <div class="grid-content">
                       <h3><a href="#">Journée Internationale de la Femme</a></h3>
                       <p>Journée Internationale de la Femme le 08 mars 2018 au programme comédie théâtrale
