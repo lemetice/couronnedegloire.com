@@ -18,6 +18,12 @@
               <li><a href="plan-visit.html">Plan your visit</a></li>
               <li><a href="{{ url('/events') }}">calendrier</a></li>
               <li><a href="{{ url('/donate') }}">Faire un don</a></li>-->
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="hosted_button_id" value="PSJDHL4VLMGKE">
+                <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+              </form>
             </ul>
             <a href="#" class="visible-sm visible-xs menu-toggle"><i class="fa fa-bars"></i></a> </div>
         </div>

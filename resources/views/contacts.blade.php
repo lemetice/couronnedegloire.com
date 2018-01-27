@@ -37,6 +37,9 @@
 		    	Planning de la Prophétesse : Pour les demandes de prières en ligne, appelez tous les lundis et dimanches à partir de 17 h 00 jusqu'à 22 h 00. Si elle n'est pas disponible, laissez un message sur le répondeur ou envoyez un sms. En dehors de ces créneaux horaires, la Prophétesse se trouve en évangélisation, en connection divine avec le Saint-Esprit et doit également effectuer ses démarches personnelles. Elle répond aussi à beaucoup de sollicitations de l'étranger, alors s'il vous plaît veuillez respecter les horaires téléphoniques indiqués ci-dessus.
 				Merci à tous !!
               </p><br/>
+              <p>
+              	Notres culte a lieu à la MEICG. 73 Rue de la briche 93200 Saint Denis France. Salle 35. Au 3eme etages. Accès voiture À 86. Sortir la plaine Saint Denis. Transport en commun RER. D sortir gare saint Denis . Prendre tram 8. Arrêt paule eluard et sous le pont, sous les arbres. Oybus gare saint Denis. Bus : 254 arrêt la briche.
+              </p>
             </div>
 
 	      <div class="col-md-9">
@@ -93,8 +96,9 @@
 	            <h3>Adresse</h3>
 	          </div>
 	          	<span>
-		          	<strong>10 Rue Charles Gounod 78000 Versailles</strong> <br>
-					<strong>E-mail</strong> <br> support@lacouronnedegloire.org <br>
+		          	<strong>73 Rue de la briche 93200 Saint Denis France<br>
+		          	Salle 35. Au 3eme etages. Accès voiture À 86. Sortir la plaine Saint Denis</strong> <br>
+					<strong>E-mail:</strong> support@lacouronnedegloire.org <br>
 					
 					<strong>Tél</b> </strong> (+31) 06.81.78.34.31 <br>
 				</span>
