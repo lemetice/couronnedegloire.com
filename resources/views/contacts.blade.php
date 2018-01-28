@@ -48,7 +48,7 @@
 	        </header>
 	        <div class="post-content">
 	          <div id="gmap">
-	            <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=48.801407, 2.130122&amp;spn=0.043846,0.077162&amp;t=m&amp;z=14&amp;output=embed"></iframe>
+	            <iframe src="https://maps.google.com/?ie=UTF8&amp;ll=48.942046, 2.34157&amp;spn=0.043846,0.077162&amp;t=m&amp;z=14&amp;output=embed"></iframe>
 	          </div>
 	          <div class="row">
                 {!! Form::open(
