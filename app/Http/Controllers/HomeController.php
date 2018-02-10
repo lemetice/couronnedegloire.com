@@ -48,7 +48,8 @@ class HomeController extends Controller {
         $auth_user = $request->user();
         
         //Get all articles
-        $articles = DB::table('articles')->orderBy('created_at', 'desc')->get();
+        $articles = DB::table('articles')->where('deleted_at','=','0000-00-00 00:00:00')->orderBy('created_at', 'desc')->get();
+        
         //$articles->setPath('home');
         
         return view('home', compact('articles', 'auth_user'));
@@ -177,7 +178,7 @@ class HomeController extends Controller {
             $article[0]->body  = Purifier::clean($request->input('body'));
             $article[0]->updated_at = $dt;                
 
-            DB::table('articles')->update([
+            DB::table('articles')->where('id', $id)->update([
                 'title' => $article[0]->title,
                 'slug' => $article[0]->slug,
                 'body' => $article[0]->body,
@@ -200,15 +201,20 @@ class HomeController extends Controller {
     {   
 
         $dt = Carbon::now('Africa/douala')->format('Y-m-d H:i:s');
+        
         try{
 
-            $article = Article::findOrFail($id);
-            $article->deleted_at = $dt;
-            $article->save();
+        
+            $article = DB::table('articles')->where('id','=',$id)->get(); 
+            //dd($article);
+            $article[0]->deleted_at = $dt;
+            DB::table('articles')->where('id', $id)->update([
+                'deleted_at' => $article[0]->deleted_at
+                ]);
 
             Session::flash('success_message', 'Article supprimée avec succès!');
 
-            return view('home');
+            return redirect('home/');
 
         }catch(ModelNotFoundException $e){
 

@@ -679,3 +679,13 @@ $(window).resize(function(){
 	$(".wwidth").css("width",wwidth);
 });
 });
+
+//This js function deletes articles
+function confirmDelete(){
+    var retVal = confirm("Voulez vous vraiment supprimer cet élément ?");
+    if( retVal == true ){
+      return true;
+    }else{
+      return false;
+    }
+}

@@ -56,6 +56,20 @@
 							                  	<span><i class="fa fa-calendar"></i> {{ $article->published_at  }}</span>
 							                    <span><i class="fa fa-edit"></i> <a href="{{url('/home/'.$article->slug.'/edit')}}" class="btn-warning btn-sm">Modifier</a>
 							                  </span>
+							                    <span>
+							                    <p>
+								                    {!! Form::open([
+								                    'method' => 'DELETE',
+								                    'route' => ['home.destroy', $article->id],
+								                    'onsubmit' => 'return confirmDelete()'
+								                    ]) !!}
+								                    <a href="{{url('/home/'.$article->id)}}" ><span class="bluecolor glyphicon glyphicon-pencil"></span></a><b class="bcolor"> |</b>
+								                    <span class="rcolor glyphicon glyphicon-trash">{!! Form::submit('Supprimer', ['class' => 'btn-danger btn-sm' ]) !!}</span>
+								                    
+								                    {!! Form::close() !!} 
+								                </p>
+
+							                  </span>
 							                  <div class="progress-label">			   
 							                  </div>
 							                  <div class="progress">
