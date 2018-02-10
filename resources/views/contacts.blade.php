@@ -97,10 +97,10 @@
 	          </div>
 	          	<span>
 		          	<strong>73 Rue de la briche 93200 Saint Denis France<br>
-		          	Salle 35. Au 3eme etages. Accès voiture À 86. Sortir la plaine Saint Denis</strong> <br>
+		          	Salle 35. Au 2eme etages. Accès voiture À 86. Sortir la plaine Saint Denis</strong> <br>
 					<strong>E-mail:</strong> support@lacouronnedegloire.org <br>
 					
-					<strong>Tél</b> </strong> (+31) 06.81.78.34.31 <br>
+					<strong>Tél</b> </strong> (+31) 06 81 78 34 31 <br>
 				</span>
 			<!--	
 	        <ul>

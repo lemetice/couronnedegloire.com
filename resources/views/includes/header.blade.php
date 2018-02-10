@@ -62,6 +62,14 @@
                   </ul>
                   -->
                 </li>
+                <li><a href="{{ url('livre') }}">Ressources</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li>
+                    <li><a href="{{ url('livre') }}">Livre</a></li>
+                    <li><a href="{{ url('https://soundcloud.com/user-45745847') }}">SoundCloud</a></li><!--
+                    <li><a href="{{ url('/') }}">Gallerie</a></li>-->
+                  </ul>
+                </li>
                 <li><a href=" {{ url('/nous-connaitre') }}">Nous connaitre</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/vision') }}">vision</a></li>
@@ -119,14 +127,6 @@
                   </li> 
                 -->
                 <li><a href="{{ url('actualites') }}">Actualités</a>                  
-                </li>
-                <li><a href="{{ url('livre') }}">Ressources</a>
-                  <ul class="dropdown">
-                    <li><a href="{{ url('livre') }}">Livre</a></li>
-                    <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li>
-                    <li><a href="{{ url('https://soundcloud.com/user-45745847') }}">SoundCloud</a></li><!--
-                    <li><a href="{{ url('/') }}">Gallerie</a></li>-->
-                  </ul>
                 </li>
                 <li><a href="{{ url('blog') }}">Blog</a>
                   <ul class="dropdown">

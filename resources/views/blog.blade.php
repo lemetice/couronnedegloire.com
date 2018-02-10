@@ -87,7 +87,7 @@
               <div class="tag-cloud"> 
                @unless(count($tags) == 0)
                   @foreach($tags as $tag) 
-                    <a href="{{ url('tag/'. preg_replace('/\s+/', '-', $tag )) }}"> {{ $tag }}</a> 
+                    <a href="{{ url('blog/tag/'. preg_replace('/\s+/', '-', $tag )) }}"> {{ $tag }}</a> 
                   @endforeach
               @endunless    
             </div>
