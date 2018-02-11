@@ -680,7 +680,7 @@ $(window).resize(function(){
 });
 });
 
-//This js function deletes articles
+//This js function deletes articles #####################
 function confirmDelete(){
     var retVal = confirm("Voulez vous vraiment supprimer cet élément ?");
     if( retVal == true ){
