@@ -74,6 +74,11 @@ Route::get('mentions-legales', function()
     return view('mentions-legales');
 });
 
+Route::get('telechargement', function()
+{
+    return view('documentdrive');
+});
+
 Route::get('equipe', function()
 {
     return view('equipe');
