@@ -33,7 +33,9 @@
         <div class="row">
           <div class="col-md-12">
             <div class="row">
-        	<iframe src="https://drive.google.com/embeddedfolderview?id=&0B6Ez3tXHRmnBLVFLdGNjUlYyWnc#grid" width="1200" height="800" frameborder="0"></iframe>
+        	<iframe src="https://drive.google.com/embeddedfolderview?id=&0B6Ez3tXHRmnBLVFLdGNjUlYyWnc#grid" width="1200" height="800" frameborder="0">
+        		
+        	</iframe>
 
             </div>
             </div>

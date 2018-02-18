@@ -93,7 +93,8 @@ class HomeController extends Controller {
             $image    = $request->file('media_url');
             $filename = time().'.'.$image->getClientOriginalExtension();
             $location = public_path('uploads/'.$filename);
-            Image::make($image)->resize(800,400)->save($location);
+           // Image::make($image)->resize(800,400)->save($location);            
+           Image::make($image)->save($location);
             $article->media_url = 'uploads/'.$filename;
          }
 
