@@ -32,7 +32,8 @@
             <a href="https://www.facebook.com/sarah.jango.1?ref=br_rs" target="_blank"><i class="fa fa-facebook"style="font-size:36px"></i></a> 
             <a href="https://twitter.com/MEICGloire?s=08" target="_blank"><i class="fa fa-twitter" style="font-size:36px"></i></a>
             <a href="https://www.youtube.com/channel/UCiWK7T6r9zwzoQY9w2PE9iQ" target="_blank"><i class="fa fa-youtube" style="font-size:36px"></i></a> 
-            <a href="https://soundcloud.com/user-45745847" target="_blank"><i class="fa fa-soundcloud" style="font-size:36px"></i></a> 
+            <a href="https://soundcloud.com/user-45745847" target="_blank"><i class="fa fa-soundcloud" style="font-size:36px"></i></a>  
+            <a href="https://plus.google.com/u/0/115055774386439764363" target="_blank"><i class="fa fa-google-plus" style="font-size:36px"></i></a>
            </div>
         </div>
       </div>
