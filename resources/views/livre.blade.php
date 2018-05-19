@@ -32,28 +32,28 @@
         <div class="row">
           <ul class="isotope-grid" data-sort-id="gallery">
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-8.jpeg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-8.jpeg') }}" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="https://www.amazon.fr/Po%C3%A8mes-cantiques-inspir%C3%A9s-Saint-Esprit/dp/2955047287/ref=sr_1_5?ie=UTF8&qid=1526724975&sr=8-5&keywords=sylvie+jango" target="_blank">   <img src="{{ asset('/images/sylvie-jango-8.jpeg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-7.jpeg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-7.jpeg') }}" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="https://www.amazon.fr/Revelations-Divines-Conditions-Demeure-C%C3%A9leste/dp/295504721X/ref=sr_1_4?ie=UTF8&qid=1526724975&sr=8-4&keywords=sylvie+jango" target="_blank">  <img src="{{ asset('/images/sylvie-jango-7.jpeg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
               <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-6.jpeg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-6.jpeg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-5.jpeg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-5.jpeg') }}" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="https://www.amazon.fr/Visite-lEnfer-Paradis-Sylvie-JANGO/dp/B077MYDX9X/ref=sr_1_3?ie=UTF8&qid=1526724975&sr=8-3&keywords=sylvie+jango" target="_blank"> <img src="{{ asset('/images/sylvie-jango-5.jpeg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
               <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-4.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-4.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-3.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-3.jpg') }}" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="https://www.amazon.fr/Visite-lEnfer-du-Paradis-1/dp/2955047201/ref=sr_1_1?ie=UTF8&qid=1526724975&sr=8-1&keywords=sylvie+jango" target="_blank"> <img src="{{ asset('/images/sylvie-jango-n3.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
               <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-2.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-2.jpg') }}" alt=""> </a> </div>
             </li>
             <li class="col-md-3 col-sm-3 grid-item post format-image">
-              <div class="grid-item-inner"> <a href="{{ asset('/images/sylvie-jango-1.jpg') }}" data-rel="prettyPhoto" class="media-box"> <img src="{{ asset('/images/sylvie-jango-1.jpg') }}" alt=""> </a> </div>
+              <div class="grid-item-inner"> <a href="https://www.amazon.fr/Lenl%C3%A8vement-lEglise-Sylvie-JANGO/dp/2955047295/ref=sr_1_2?ie=UTF8&qid=1526724975&sr=8-2&keywords=sylvie+jango" target="_blank"> <img src="{{ asset('/images/sylvie-jango-1.jpg') }}" alt=""> </a> </div>
             </li>
           </ul>
         </div>

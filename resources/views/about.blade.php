@@ -33,7 +33,18 @@
         <div class="row">
           <div class="col-md-12">
             <p>
-              Moi Jésus-Christ, je t'envoie partout dans le monde annoncer le Royaume de Dieu et proclamer à toutes les nations que mon retour est proche. Rien, ni personne ne pourra plus venir se mettre en travers de la tâche qui t'est confiée.<br><br>
+              Je vous souhaite la bienvenue sur le site officiel 
+              de la Mission Evangélique Internationale la Couronne 
+              de Gloire, en sigle, MEICG. A travers les enseignements 
+              et les messages que nous diffusons, je désire que vous 
+              soyez transformer dans votre esprit et que vous réalisez 
+              que le temps du retour de notre Seigneur Jésus Christ. 
+              Le créateur des toutes choses, tout a été 
+              créé par lui et pour lui, il est l’auteur et le consommateur 
+              de notre foi, bien que nul ne connaisse ni le jour, 
+              ni l’heure, ce temps est proche et nous devons être prêts 
+              pour l’enlèvement à tout moment ou tout simplement être 
+              prêt pour notre propre retour s’il arrivait avant.<br><br>
               <blockquote>
               <p>Je te donne aujourd'hui le don de prophétie, le don de guérison, le don de délivrance et je te qualifie en tant qu'évangélisatrice. Je dépose sur toi l'onction de direction et d'accomplissement et je te consacre en tant que messagère. A partir de maintenant, ta bouche est ouverte à tout jamais pour aller annoncer et dénoncer. En mon Nom obéiront ceux à qui tu commanderas de venir à toi et ceux que tu chasseras seront chassés. Je te donne le pouvoir de dominer sur le mal et d'appeler toutes bonnes choses afin qu'elles viennent à toi. Voici, je t'établis Prophétesse des nations et du Royaume afin que tu arraches, que tu abattes, que tu mettes en ruines, que tu détruises, mais aussi que tu bâtisses et que tu plantes</p> 
               <cite style="color: black">Jérémie 1 : 10</cite></blockquote>

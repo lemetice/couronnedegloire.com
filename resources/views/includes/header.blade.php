@@ -65,8 +65,8 @@
                 <li><a href="{{ url('livre') }}">Ressources</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('https://www.youtube.com/user/adrafrance78/feed') }}" target="_blank">Youtube</a></li>
-                    <li><a href="{{ url('livre') }}">Livre</a></li>
-                    <li><a href="{{ url('https://soundcloud.com/user-45745847') }}">SoundCloud</a></li>
+                    <li><a href="{{ url('livre') }}">Achat Livre</a></li>
+                    <li><a href="{{ url('https://soundcloud.com/user-45745847') }}" target="_blank">SoundCloud</a></li>
                     <li><a href="{{ url('/telechargement') }}">Telechargement</a></li>
                   </ul>
                 </li>
@@ -74,18 +74,25 @@
                   <ul class="dropdown">
                     <li><a href="{{ url('/vision') }}">vision</a></li>
                     <li><a href="{{ url('/about') }}">Profil</a></li>
-                    <li><a href="{{ url('/bilan') }}">Bilan</a></li>
                     <li><a href="{{ url('/equipe') }}">Équipe</a></li>
                     <li><a href="{{ url('/auth/login') }}">Membre</a></li>
                     <li><a href="{{ url('/charte') }}">Charte</a></li>
                   </ul>
                 </li>
-                <li><a href=" {{ url('/culte') }}">Nos Activités</a>
+                <li><a href="#">Notre Ministère</a>
                   <ul class="dropdown">
+                    <li><a href="{{ url('/bilan') }}">Bilan</a></li>
                     <li><a href="{{ url('/culte') }}">Culte</a></li>
                     <li><a href="{{ url('/évenement') }}">Évenement</a></li>
                     <li><a href="{{ url('/evangelisation') }}">Évangelisation</a></li>
                     <li><a href="{{ url('/intercéssion') }}">Intercéssion</a></li>
+                  </ul>
+                </li>
+                <li><a href=" {{ url('/évenement') }}">Évenement</a>
+                  <ul class="dropdown">
+                    <li><a href="{{ url('/info') }}">Info</a></li>
+                    <li><a href="{{ url('/actualites') }}">Actualités</a></li>
+                    <li><a href="{{ url('/avenir') }}">Avenir</a></li>
                   </ul>
                 </li>
                 <!--
@@ -125,8 +132,7 @@
                       </li>
                     </ul>
                   </li> 
-                -->
-                <li><a href="{{ url('actualites') }}">Actualités</a>                  
+                -->                
                 </li>
                 <li><a href="{{ url('blog') }}">Blog</a>
                   <ul class="dropdown">

@@ -89,6 +89,15 @@ Route::get('vision', function()
     return view('vision');
 });
 
+Route::get('info', function()
+{
+    return view('info');
+});
+
+Route::get('avenir', function()
+{
+    return view('avenir');
+});
 Route::get('blog/{$id}', function()
 {
     return view('articles.show');
