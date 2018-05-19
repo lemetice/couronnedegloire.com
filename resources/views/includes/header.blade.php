@@ -91,8 +91,8 @@
                 <li><a href=" {{ url('/évenement') }}">Évenement</a>
                   <ul class="dropdown">
                     <li><a href="{{ url('/info') }}">Info</a></li>
-                    <li><a href="{{ url('/actualites') }}">Actualités</a></li>
                     <li><a href="{{ url('/avenir') }}">Avenir</a></li>
+                    <li><a href="{{ url('/actualites') }}">Actualités</a></li>
                   </ul>
                 </li>
                 <!--
